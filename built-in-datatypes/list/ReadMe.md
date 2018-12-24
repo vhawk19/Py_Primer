@@ -1,11 +1,11 @@
 # Lists
 
 * Lists are a collection which is ordered and changeable.
+* Lists can contain different data types.
 * Written within square brackets.
 * They also allow duplicate members.
-* Lists also contain different data types.
 
-Example:
+List Declaration:
 
 Input:
 ```
