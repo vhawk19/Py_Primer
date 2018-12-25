@@ -180,3 +180,13 @@ a="lorem ipsum dolor sit amet"
 a.isupper()
 #Output:False
 ```
+
+### str.join(iterable)
+Return a string which is the concatenation of the strings in iterable. A TypeError will be raised if there are any non-string values in iterable, including bytes objects. The separator between elements is the string providing this method.
+
+```python
+a="lorem ipsum"
+b=['1','2','3','4']
+a.join(b)
+#Output:'1lorem ipsum2lorem ipsum3lorem ipsum4'
+```
