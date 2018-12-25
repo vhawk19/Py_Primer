@@ -1,8 +1,26 @@
 # String
 
+* Textual data in python is handled by str objects(strings)
+* They are immutable sequences of Unicode code points.
+They can be written in a variety of ways
+```python
+# Single quotes
+'allows embedded double quotes like these "" '
+
+# Double quotes
+'allows embeded single quotes like these '' "
+
+#triple Double/Single quote, these can span across multiple lines(all associated whitespce charecters will be included in the string) 
+'''tripled single quote which allows for embedded double quotes'''
+"""tripled double quotes which allows for embedded single quotes"""
 String literals in python are surrounded by either single quotation marks, or double quotation marks.
 
-'hello' is the same as "hello".
+```
+* Strings maybe constructed from other objects using the **str** function
+```python
+a=str(10)
+#here a is nothing but a string "10"/'10'
+```
 
 Strings can be output to screen using the print function. For example: print("hello").
 
