@@ -96,7 +96,7 @@ a.endswith('dolor')
 #Output:False
 a.endswith('amet',1)
 #Output: True
-a.endswith(amet,1,2)
+a.endswith('amet',1,2)
 #Output:False
 ```
 ### str.find(sub[, start[, end]])
@@ -111,4 +111,72 @@ a.find("ipsum",7)
 #Output:-1
 a.find("ipsum",7,10)
 #Output:-1
+```
+### str.format(\*args,\*\*kwargs)
+Perform a string formatting operation. The string on which this method is called can contain literal text or replacement fields delimited by braces {}. Each replacement field contains either the numeric index of a positional argument, or the name of a keyword argument. Returns a copy of the string where each replacement field is replaced with the string value of the corresponding argument.
+```python
+a="lorem ipsum dolor sit amet is {0}"
+a.format(1+2)
+#Output:'lorem ipsum dolor sit amet is 3'
+```
+### str.isalpha()
+Return true if all characters in the string are alphabetic and there is at least one character, false otherwise. Alphabetic characters are those characters defined in the Unicode character database as “Letter”, i.e., those with general category property being one of “Lm”, “Lt”, “Lu”, “Ll”, or “Lo”. Note that this is different from the “Alphabetic” property defined in the Unicode Standard.
+```python
+a="lorem ipsum dolor sit amet"
+a.isalpha()
+#Outpu:True
+```
+### str.isalnum()
+Return true if all characters in the string are alphanumeric and there is at least one character, false otherwise. A character c is alphanumeric if one of the following returns True: c.isalpha(), c.isdecimal(), c.isdigit(), or c.isnumeric().
+```python
+a="lorem ipsum dolor sit amet"
+a.isalnum()
+#Output:True
+```
+### str.isdecimal()
+Return true if all characters in the string are decimal characters and there is at least one character, false otherwise. Decimal characters are those that can be used to form numbers in base 10, e.g. U+0660, ARABIC-INDIC DIGIT ZERO. Formally a decimal character is a character in the Unicode General Category “Nd”.
+
+```python
+a="lorem ipsum dolor sit amet"
+a.isdecimal()
+#Output:False
+```
+### str.isdigit()
+Return true if all characters in the string are digits and there is at least one character, false otherwise. Digits include decimal characters and digits that need special handling, such as the compatibility superscript digits. This covers digits which cannot be used to form numbers in base 10, like the Kharosthi numbers. Formally, a digit is a character that has the property value Numeric_Type=Digit or Numeric_Type=Decimal.
+
+```python
+a="lorem ipsum dolor sit amet"
+a.isdigit()
+#Output:False
+```
+
+### str.islower()
+Return true if all cased characters [4] in the string are lowercase and there is at least one cased character, false otherwise.
+
+```python
+a="lorem ipsum dolor sit amet"
+a.islower()
+#Output:True
+```
+### str.isspace()
+Return true if there are only whitespace characters in the string and there is at least one character, false otherwise. Whitespace characters are those characters defined in the Unicode character database as “Other” or “Separator” and those with bidirectional property being one of “WS”, “B”, or “S”.
+
+```python
+a="lorem ipsum dolor sit amet"
+a.isspace()
+#Output:False
+```
+### str.istitle()
+Return true if the string is a titlecased string and there is at least one character, for example uppercase characters may only follow uncased characters and lowercase characters only cased ones. Return false otherwise.
+```python
+a="lorem ipsum dolor sit amet"
+a.isspace()
+#Output:False
+```
+### str.isupper()
+Return true if all cased characters [4] in the string are uppercase and there is at least one cased character, false otherwise.
+```python
+a="lorem ipsum dolor sit amet"
+a.isupper()
+#Output:False
 ```
