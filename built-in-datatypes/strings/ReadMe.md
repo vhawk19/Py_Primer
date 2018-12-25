@@ -54,7 +54,7 @@ World
 
 # String Methods
 
-## str.capitalize()
+### str.capitalize()
 Return a copy of the string with its first character capitalized and the rest lowercased.
 
 ```python
@@ -63,7 +63,7 @@ a.capitalize()
 print(a)
 #Output: Lorem ipsum dolor sit amet
 ```
-##str.center(width[, fillchar])
+### str.center(width[, fillchar])
 Return centered in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if width is less than or equal to len(s).
 
 ```python
@@ -73,7 +73,7 @@ a.center(40," ")
 a.center(40,"*")
 #Output:'*******lorem ipsum dolor sit amet*******'
 ```
-## str.count(sub[,start[,end]])
+### str.count(sub[,start[,end]])
 Return the number of non-overlapping occurrences of substring sub in the range [start, end]. Optional arguments start and end are interpreted as in slice notation.
 
 ```python
@@ -100,9 +100,10 @@ a.endswith(amet,1,2)
 #Output:False
 ```
 ### str.find(sub[, start[, end]])
+
 Return the lowest index in the string where substring sub is found within the slice s[start:end]. Optional arguments start and end are interpreted as in slice notation. Return -1 if sub is not found.
 
-'''python
+```python
 a="lorem ipsum dolor sit amet"
 a.find("ipsum")
 #Output:6
