@@ -245,6 +245,9 @@ For sorting in descending order, we use the following syntax:
 ```python
 list_name.sort(reverse=True)
 ```
+
+**NOTE: The sort() function is NOT the same as the sorted() function. sort() is a subfunction of list datatype which `CANNOT` be used for other datatypes such as tuples or dictionaries.** 
+
 ## Max and min functions
 `max()` and `min()` functions return the maximum and minimum values in the list respectively.
 
