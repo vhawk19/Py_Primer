@@ -21,13 +21,13 @@ There are two kinds of functions within python:
 Implicit Functions are predefined functions within Python, or a module linked through Python. We shall focus on Explicit Functions 
 for now.
 
-## Stop it with the Theory! 
+### Stop it with the Theory! 
 
 Okay, fine, so a function needs to be defined beforehand for it to be used later in the program. To define a function, we need
 to use the following keywords:
 
 ```python
-'def' ''function-name'' ( 'Argument-1', 'Argument-2', ... 'Argument-N' )
+`def` ``function-name`` ( `Argument-1`, `Argument-2`, ... `Argument-N` )
     
     Line 1
     Line 2
@@ -49,7 +49,7 @@ function-name( Arg1, Arg2, ArgN )  #This will execute Lines 1 to 4 once.
 ```
 
 
-##Advantages of using a function:
+## Advantages of using a function:
 
   * It allows for a significantly shorter length for the program code. 
   * You can reuse the code repeatedly instead of rewriting the same set of instructions again
