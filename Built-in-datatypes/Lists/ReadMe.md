@@ -1,6 +1,6 @@
-Author: Ashley T Roy
+**Author: Ashley T Roy**
 
-Edits: S Sandeep Pillai
+**Edits:** S Sandeep Pillai
 
 # Lists
 
