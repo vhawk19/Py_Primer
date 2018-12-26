@@ -3,7 +3,7 @@
 
 **_Lambda expressions_** allow us to create an anonymous function. We can quickly make functions for a particular purpose without having to properly define a function using `def`.
 
-**_Lambda expressions_** are a sinlgle statement. They work exactly like functions created using `def`. The only key difference is that their result is typed in as an expression and doesnt need to be explicitely returned.
+**_Lambda expressions_** are a single statement. They work exactly like functions created using `def`. The only key difference is that their result is typed in as an expression and doesnt need to be explicitely returned.
 
 ***
 
@@ -43,13 +43,14 @@ m=[1,2,3,4,5] #list
 l=map(square,m)
 print(l)
 
+#Output : [1,4,9,16,25] 
+
 #OR
 
 def square(x):
     return x**2
 m=[1,2,3,4,5] #list
 print(list(map(square,m)))
-
 
 #Output : [1,4,9,16,25]
 ```
