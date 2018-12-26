@@ -2,7 +2,7 @@
 
 **Edits:** S Sandeep Pillai
 
-`
+***
 
 # Lists
 
@@ -295,5 +295,4 @@ Output: `3`
 
 In case of multiple occurences of a value, the first occurence is considered.
 
-***
 ***
