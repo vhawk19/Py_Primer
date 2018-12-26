@@ -76,6 +76,22 @@ def division(num1, num2)
 
 ```
 We can now call any of the functions defined above as many times as we want later in the program. Let us assume later in the code, we need to multiply 42 and 25. We can simply "CALL" the `multiplication` function in the lines below instead of writing the entire sequence of code again.
+```python3
+ 
+multiplication( 42, 25 ) # Here, 42 is assigned to num1 and 25 is assigned to num2.
+
+```
+
+This will give us the output:
+```
+WHATEVER IS 42 * 25, I'm not your calculator!
+```
+
+I'm kidding, I'm kidding. It'll show the following output:
+
+```
+1050
+```
 
 ## Advantages of using a function:
 
