@@ -1,4 +1,5 @@
-**Author:** S Sandeep Pillai
+**Author:** S Sandeep Pillai.
+
 **Edited by:**
 
 
@@ -25,7 +26,7 @@ for now.
 Okay, fine, so a function needs to be defined beforehand for it to be used later in the program. To define a function, we need
 to use the following keywords:
 
-''' 
+'''python 
 'def' ''function-name'' ( 'Argument-1', 'Argument-2', ... 'Argument-N' )
     
     Line 1
@@ -41,7 +42,7 @@ to use the following keywords:
 Here, we use the keyword *'def'* to invoke the function definition clause so that the interpreter will know the following line
 contains the definition of a function. To use this function later, simply follow the syntax:
 
-'''
+'''python
 
 function-name( Arg1, Arg2, ArgN )  #This will execute Lines 1 to 4 once.
 
