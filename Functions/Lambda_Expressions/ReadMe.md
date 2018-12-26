@@ -43,13 +43,14 @@ m=[1,2,3,4,5] #list
 l=map(square,m)
 print(l)
 
+#Output : [1,4,9,16,25] 
+
 #OR
 
 def square(x):
     return x**2
 m=[1,2,3,4,5] #list
 print(list(map(square,m)))
-
 
 #Output : [1,4,9,16,25]
 ```
