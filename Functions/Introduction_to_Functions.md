@@ -97,4 +97,6 @@ I'm kidding, I'm kidding. It'll show the following output:
 ## Advantages of using a function:
 
   * It allows for a significantly shorter length for the program code. 
-  * You can reuse the code repeatedly instead of rewriting the same set of instructions again
+  * You can reuse the code repeatedly instead of rewriting the same set of instructions again.
+  * Significantly improves code debugging: it'll allow you to pinpoint an error to a specific code block.
+  * If a certain function breaks during developement, you can still run the rest of the program without issues.
