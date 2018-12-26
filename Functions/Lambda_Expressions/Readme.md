@@ -1,7 +1,7 @@
 <!--Lambda Expressions in Python-->
 # Lambda Expressions
 
-**_Lambda expressions_** allow us to create an anonymous functions. We can quickly make functions for a particular purpose without having to properly define a function using `def`.
+**_Lambda expressions_** allow us to create an anonymous function. We can quickly make functions for a particular purpose without having to properly define a function using `def`.
 
 **_Lambda expressions_** are a sinlgle statement. They work exactly like functions created using `def`. The only key difference is that their result is typed in as an expression and doesnt need to be explicitely returned.
 
