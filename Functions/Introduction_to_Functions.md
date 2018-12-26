@@ -3,7 +3,7 @@
 **Edited by:**
 
 
-#Functions
+# Functions
 
 **A function (or method) is defined as an named encapsulation of a specific set of instructions in a program.** 
 
@@ -26,7 +26,7 @@ for now.
 Okay, fine, so a function needs to be defined beforehand for it to be used later in the program. To define a function, we need
 to use the following keywords:
 
-'''python 
+```python
 'def' ''function-name'' ( 'Argument-1', 'Argument-2', ... 'Argument-N' )
     
     Line 1
@@ -37,16 +37,16 @@ to use the following keywords:
     Line 3
     Line 4
 
-#End of function-name
-'''
+#End of function-name.
+``` 
 Here, we use the keyword *'def'* to invoke the function definition clause so that the interpreter will know the following line
 contains the definition of a function. To use this function later, simply follow the syntax:
 
-'''python
+```python
 
 function-name( Arg1, Arg2, ArgN )  #This will execute Lines 1 to 4 once.
 
-'''
+```
 
 
 ##Advantages of using a function:
