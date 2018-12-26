@@ -8,7 +8,7 @@ They can be written in a variety of ways
 'allows embedded double quotes like these "" '
 
 # Double quotes
-'allows embeded single quotes like these '' "
+"allows embeded single quotes like these '' "
 
 #triple Double/Single quote, these can span across multiple lines(all associated whitespce charecters will be included in the string) 
 '''tripled single quote which allows for embedded double quotes'''
@@ -26,7 +26,7 @@ Strings can be output to screen using the print function. For example: print("he
 
 Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
 
-```
+```python
 a="this is a string"
 ```
 
@@ -35,7 +35,7 @@ a="this is a string"
 String literals can be printed using the print function.
 
 Use ' ' **single quotes** or " " **double quotes** for single line printing and ''' ''' **three single quotes** for multi line printing.
-```
+```python
 print('Hello World')
 print("Hello World")
 print('Hello\nWorld')
