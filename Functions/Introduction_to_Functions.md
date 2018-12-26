@@ -11,7 +11,7 @@ In normal english, it can be considered as a package/collection of lines of code
 
 Now before we get into the boring theory, let us dwelve into how we can use functions in Python.
 
-# Syntax
+## Syntax
 
 There are two kinds of functions within python: 
 1) Implicit Functions
@@ -53,6 +53,7 @@ Now let us look at an example where functions can prove very useful in your prog
 
 Suppose we are developing a college-assistant application, with a wide range of tools such as a 'time table manager', 'announcements viewer', 'test date reminders', and the very popular 'Class Bunker Calculator', it would be convenient to enclose each functionality within its own functions.
 
+## Example Program:
 
 But for now, let us diverge from that and look at how we can design a simple arithmetic calculator:
 
