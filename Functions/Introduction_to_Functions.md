@@ -40,7 +40,7 @@ def function-name ( Argument-1, Argument-2, ... Argument-N )
 
 #End of "function-name".
 ``` 
-Here, we use the keyword *'def'* to invoke the function definition clause so that the interpreter will know the following line
+Here, we use the keyword *`def`* to invoke the function definition clause so that the interpreter will know the following line
 contains the definition of a function. To use this function later, simply follow the syntax:
 
 ```python
