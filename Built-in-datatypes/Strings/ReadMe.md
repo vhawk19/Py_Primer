@@ -30,7 +30,7 @@ Like many other popular programming languages, strings in Python are arrays of b
 a="this is a string"
 ```
 
-# Printing String Literals
+## Printing String Literals
 
 String literals can be printed using the print function.
 
@@ -52,7 +52,7 @@ Hello
 World
 ```
 
-# String Methods
+## String Methods
 
 ### str.capitalize()
 Return a copy of the string with its first character capitalized and the rest lowercased.
