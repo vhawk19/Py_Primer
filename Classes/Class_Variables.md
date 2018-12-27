@@ -93,3 +93,6 @@ Type: I am an awesome book!
 
 See how the value of the data memeber changed for both objects and not just
 one. This is shows that that class variables are common to all objects of a class.
+
+***
+## [Alright...lets go ahead, Shall we?](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Inheritance.md)
