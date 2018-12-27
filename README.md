@@ -13,7 +13,7 @@ We also have Inbuilt methods documentation with examples documented in a formal 
 + ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/edit/master/Classes/Classes_and_Instances.md)
 <br>
 ### ITS NOT BORING!:joy:
-<br><br>
+
 ***
 # Developed by:
  + #### [vhawk19](https://github.com/vhawk19)
