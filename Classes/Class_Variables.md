@@ -69,7 +69,7 @@ So lets try it out using Items again
 Book1= Items()
 Book2= Items()
 
-Items.type="I am an awesome book!" #NOTE CLASS NAME
+Items.type="I am an awesome book!" #IMP
 
 Book1.enter_info("The Hitchhiker's Guide to the Galaxy", "Comic Science Fiction")
 Book2.enter_info("The Stanger", "Philosophical Fiction")
