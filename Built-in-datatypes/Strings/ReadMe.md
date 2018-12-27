@@ -10,9 +10,11 @@ They can be written in a variety of ways
 ```python
 # Single quotes
 'allows embedded double quotes like these "" '
+'Bob asked me,"Do you belive in unicorns?"'
 
 # Double quotes
 "allows embeded single quotes like these '' "
+"I'm going fishing someday!"
 
 #triple Double/Single quote, these can span across multiple lines(all associated whitespce charecters will be included in the string) 
 '''tripled single quote which allows for embedded double quotes'''
