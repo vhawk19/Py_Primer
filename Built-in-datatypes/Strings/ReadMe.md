@@ -1,3 +1,7 @@
+**Author:** [vhawk19](www.github.com/vhawk19)
+**Editor(s):**[Emmanuel Antony](https://github.com/emmanuelantony2000)
+
+
 # String
 
 * Textual data in python is handled by str objects(strings)
