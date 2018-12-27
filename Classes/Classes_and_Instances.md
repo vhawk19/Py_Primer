@@ -86,9 +86,14 @@ class Potato:
 *'self'* is a parameter as whenever a method is called the instance as a whole is passed automatically as the first parameter.
 
 
-###WAIT WAIT WAIT WAIT, WHAT IS THIS SELF KEYWORD???
+### Q: WAIT WAIT WAIT WAIT, WHAT IS THIS `SELF` KEYWORD??? 
 
-If you're like me, having learned C++ and coming over to python, you might be utterly confused with the reason python uses the `self` keyword. Infact, **self is not a keyword, you can use any word you like!** Consider the code below:
+If you're like me, having learned C++ and coming over to python, you might be utterly confused with the reason python uses the `self` keyword. Infact, **`self` is not a keyword, you can use any word you like!** 
+
+
+So in short, the `self` object is used to denote an `instance` variable, and its unique to that particular object of the class, not EVERY object of the class.
+
+Consider the code below:
 
 ```python3
 
