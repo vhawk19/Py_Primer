@@ -1,5 +1,7 @@
 <!--Lambda Expressions in Python-->
-# Lambda Expressions
+_Author : Ashley Thomas Roy_
+***
+# Lambda Expressions :sweat_smile:
 
 **_Lambda expressions_** allow us to create an anonymous function. We can quickly make functions for a particular purpose without having to properly define a function using `def`.
 
@@ -17,13 +19,14 @@ square(5)
 
 #Output : 25
 ```
-_We can instead write this as a lambda expression as,_
+_We can instead write this as a lambda expression as,_ :heavy_check_mark:
 ```python
 #We do not usually assign a lambda expression to a variable. This is just for demonstration purposes.
 square = lambda x: x*x
 square(5)
 
 #Output : 25
+####Seeeeee! Much easier.....Still confused? More examples coming up!
 ```
 
 ***
@@ -45,7 +48,7 @@ print(l)
 
 #Output : [1,4,9,16,25] 
 
-#OR
+#OR (No need to learn both....CHILL!!!)
 
 def square(x):
     return x**2
@@ -54,7 +57,7 @@ print(list(map(square,m)))
 
 #Output : [1,4,9,16,25]
 ```
-_This can be written using lambda expressions as,_
+_This can be written using lambda expressions as,_ :heavy_check_mark:
 
 ```python
 a=[1,2,3,4,5]
@@ -88,7 +91,7 @@ print(list(filter(check_even,x)))
 
 #Output : [2,4]
 ```
-_This can be written using lambda expressions as,_
+_This can be written using lambda expressions as,_ :heavy_check_mark:
 ```python
 m=[1,2,3,4,5]
 print(list(filter(lambda x: x%2==0,m)))
@@ -110,15 +113,15 @@ _2.Lambda expression to reverse a string_
 lambda s: s[::-1]
 ```
 
-**NOTE:_LAMBDA EXPRESSIONS_ CAN ALSO TAKE MULTIPLE ARGUMENTS**
+**:eight_spoked_asterisk: :_LAMBDA EXPRESSIONS_ CAN ALSO TAKE MULTIPLE ARGUMENTS :scream_cat:**
 
-_3.Lambda exression to add two numbers_
+_3.Lambda expression to add two numbers_
 ```python
 lambda x,y: x+y
 ```
 
+***                                                                                                                
 ***
-***
-    
+That was EZ :sunglasses: 
     
     

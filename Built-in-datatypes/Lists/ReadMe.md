@@ -1,6 +1,6 @@
-**Author:** Ashley T Roy
+**Author:** Diya Maria Deepak
 
-**Edits:** S Sandeep Pillai
+**Edits:** S Sandeep Pillai, Ashley T Roy
 
 ***
 
@@ -147,7 +147,7 @@ l=[1,2]
 n=[3,4,5]
 x=l+n
 ```
-Here, `x=[1,2,3,4]`
+Here, `x=[1,2,3,4,5]`
 
 ## Insert function
 
