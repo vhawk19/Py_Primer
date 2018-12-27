@@ -108,3 +108,6 @@ This will give us the output:
   * Significantly improves code debugging: it'll allow you to pinpoint an error to a specific code block.
   * If a certain function breaks during developement, you can still run the rest of the program without issues.
   * Allows division of labour: each member can work on a seperate function without conflicting code.
+
+***
+## [Intresting? You might be interested in compund and builtin functions](https://github.com/vhawk19/Py_Primer/blob/master/Functions/2_BuiltIn_%26_Composition_Functions.md)
