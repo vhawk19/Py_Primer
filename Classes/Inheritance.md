@@ -67,5 +67,5 @@ Contains seeds
 I'm a strawberry
 Contains seeds
 ```
-As you can see from the output both objects can access the attributes of th parent class
+As you can see from the output both objects can access the attributes of the parent class
 
