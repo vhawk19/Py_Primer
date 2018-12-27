@@ -1,6 +1,6 @@
 **Author(s): Mohita Liza Bipin, Pranav Shridhar**
 
-#Inheritance
+# Inheritance
 
 A class can inherit attributes from an other class called a super or parent class,
 the former is called the child class
@@ -67,4 +67,5 @@ Contains seeds
 I'm a strawberry
 Contains seeds
 ```
+As you can see from the output both objects can access the attributes of th parent class
 
