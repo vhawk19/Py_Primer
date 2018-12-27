@@ -1,3 +1,5 @@
+:no_entry_sign: **WORK IN PROGRESS** :no_entry_sign:
+
 # Dictionary
 ### What is a dictionary?:books:
 Lets assume u wanna lookup the meaning of a particular word. What do you do? You open up your dictionary!!You try to figure where this word lies by having a vague idea about its lexicographic position and try to find it.Once you find the word "Hooray!!", now all you got to do is read the meaning written beside it.<br><br>
