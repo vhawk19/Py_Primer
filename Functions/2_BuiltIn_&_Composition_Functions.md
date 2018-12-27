@@ -77,3 +77,6 @@ math.pow( math.sin(π/6) , 2)  # Input: (sin30)^2
 ```
 
 ***
+
+
+# [Wanna know about lambda functions and its fancy features](https://github.com/vhawk19/Py_Primer/blob/master/Functions/3_Lambda_Expressions.md)
