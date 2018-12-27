@@ -64,6 +64,19 @@ math.log10(1000)         # Input
 >>>3                     # Output
 ```
 
+Below I shall list a few more important functions that can be useful:
+
+```python
+
+abs(x-y) # Basically acts as a modulus function, giving the distance between x and y
+
+ceil(x)  # Returns the smallest integer greater than x, i.e 1.2 will give 2 as the output. Think Ceiling - Above.
+
+floor(x) # Returns the smallest integer lesser than x, i.e 1.2 will give 1 as the output. Think Floor - Below.
+
+exp(x)   # Returns e^x  
+
+```
 
 # Composition of functions
 
