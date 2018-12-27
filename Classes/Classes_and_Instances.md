@@ -1,6 +1,6 @@
 **Author(s):  Mohita Liza Bipin, Pranav Shridhar**
 
-**Editor(s):**
+**Editor(s): S Sandeep Pillai** 
 
 # Classes and Instances
 
@@ -77,13 +77,33 @@ class Potato:
     '''This class is a template of different types of potatoes'''
 
 
-    def info(self,kind):
+    def info(self,kind):        # self? whats that!?
        self.kind = kind
 ```
 
 'info' is an example of a method and 'kind' is a data member (attribute) describing the type of potato.
 
-'self' is a parameter as whenever a method is called the instance as a whole is passed automatically as the first parameter.
+*'self'* is a parameter as whenever a method is called the instance as a whole is passed automatically as the first parameter.
+
+
+###WAIT WAIT WAIT WAIT, WHAT IS THIS SELF KEYWORD???
+
+If you're like me, having learned C++ and coming over to python, you might be utterly confused with the reason python uses the `self` keyword. Infact, **self is not a keyword, you can use any word you like!** Consider the code below:
+
+```python3
+
+class A():
+    x=3
+
+class B():
+    def __init__(self):
+        self.x=3
+        
+```
+Here is an important distinction:
+
+A.x is a class variable, and will be **shared across all instances of A**, unless specifically overridden within an instance.
+B.x is an instance variable, and **each instance of B has its own version of it.**
 
 
 ## Instances
