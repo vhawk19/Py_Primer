@@ -10,7 +10,7 @@ We also have Inbuilt methods documentation with examples documented in a formal 
 + ### [str("strings are easy,but there are so many methods!!")](https://github.com/vhawk19/Py_Primer/tree/master/Built-in-datatypes/Strings)
 + ### [['L','i','s','t','s',]](https://github.com/vhawk19/Py_Primer/tree/master/Built-in-datatypes/Lists)
 + ### [FUNCtions(intro,builtin,complex[,lamdba])](https://github.com/vhawk19/Py_Primer/Functions/1_Introduction_to_Functions.md)
-+ ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/edit/master/Classes/Classes_and_Instances.md)
++ ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Classes_and_Instances.md)
 
 ### ITS NOT BORING!:joy:
 
