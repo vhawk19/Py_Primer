@@ -115,7 +115,7 @@ lambda s: s[::-1]
 
 **:eight_spoked_asterisk: :_LAMBDA EXPRESSIONS_ CAN ALSO TAKE MULTIPLE ARGUMENTS :scream_cat:**
 
-_3.Lambda exression to add two numbers_
+_3.Lambda expression to add two numbers_
 ```python
 lambda x,y: x+y
 ```
