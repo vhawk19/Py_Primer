@@ -23,6 +23,10 @@ to write new functions yourself!
 
 ## Math Module
 
+```python
+import math
+```
+
 The math module contains various functions that can be useful for mathematical functionality in your program. A few useful
 functions include:
 
