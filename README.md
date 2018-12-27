@@ -7,8 +7,8 @@ We have explained concepts in an intuitive and fun manner.
 We also have Inbuilt methods documentation with examples documented in a formal manner!
 <br>
 ## Contents
-+ ### [str("strings are easy,but there are so many methods!!")](https://github.com/vhawk19/Py_Primer/tree/master/Built-in-datatypes/Strings)
-+ ### [['L','i','s','t','s',]](https://github.com/vhawk19/Py_Primer/tree/master/Built-in-datatypes/Lists)
++ ### [str("strings are easy,but there are so many methods!!")](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Strings/ReadMe.md)
++ ### [['L','i','s','t','s',]](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Lists/ReadMe.md)
 + ### [FUNCtions(intro,builtin,complex[,lamdba])](https://github.com/vhawk19/Py_Primer/Functions/1_Introduction_to_Functions.md)
 + ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Classes_and_Instances.md)
 
