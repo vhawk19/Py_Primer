@@ -8,7 +8,7 @@
 
 **A function (or method) is defined as a named encapsulation of a specific set of instructions in a program.** 
 
-In normal english, it can be considered as a package/collection of lines of code that will be executed each time you 'call' it later on in your program.
+In normal english, it can be considered as a package/collection of lines of code that will be executed each time you 'call' it later on in your program. So this splits the program into "modules" or chunks that each person can work on seperately.
 
 Now before we get into the boring theory, let us dwelve into how we can use functions in Python.
 
@@ -101,3 +101,4 @@ I'm kidding, I'm kidding. It'll show the following output:
   * You can reuse the code repeatedly instead of rewriting the same set of instructions again.
   * Significantly improves code debugging: it'll allow you to pinpoint an error to a specific code block.
   * If a certain function breaks during developement, you can still run the rest of the program without issues.
+  * Allows division of labour: each member can work on a seperate function without conflicting code.
