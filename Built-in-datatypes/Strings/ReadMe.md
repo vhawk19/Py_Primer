@@ -190,3 +190,60 @@ b=['1','2','3','4']
 a.join(b)
 #Output:'1lorem ipsum2lorem ipsum3lorem ipsum4'
 ```
+### str.ljust(width[, fillchar])
+Return the string left justified in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if width is less than or equal to len(s).
+
+```python 
+a="lorem ipsum"
+a.ljust(40,'*')
+#Output:'lorem ipsum*****************************'
+```
+
+### str.lower()
+Return a copy of the string with all the cased characters converted to lowercase
+```python
+a="LOREM IPSUM"
+a.lower()
+#Output:'lorem ipsum'
+```
+### str.lstrip([chars])
+Return a copy of the string with leading characters removed. The chars argument is a string specifying the set of characters to be removed. If omitted or None, the chars argument defaults to removing whitespace. The chars argument is not a prefix; rather, all combinations of its values are stripped:
+
+```python
+a=' lorem ipsum'
+a.lstrip()
+#Output:lorem ipsum
+a='lorem ipsum'
+a.lstrip('lo')
+#Output:rem ipsum
+a='abababcfghasab'
+a.lstrip('ab')
+#Output:cfghasab All patterns of the given substring till another pattern is found will be stripped away starting form the left
+```
+
+### str.partition(sep)
+Split the string at the first occurrence of sep, and return a 3-tuple containing the part before the separator, the separator itself, and the part after the separator. If the separator is not found, return a 3-tuple containing the string itself, followed by two empty strings.
+```python
+a='lorem ipsum'
+a.partition(' ')
+#Output:('lorem', ' ', 'ipsum')
+```
+### str.replace(old,new[,count])
+Return a copy of the string with all occurrences of substring old replaced by new. If the optional argument count is given, only the first count occurrences are replaced.
+
+```python
+a='lorem ipsum'
+a.replace('l','u')
+#Output:'urem ipsum'
+```
+
+### str.rjust(width[ ,fillchar])
+Return the string right justified in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if width is less than or equal to len(s).
+
+```python
+a='lorem ipsum'
+a.rjust(40,'*')
+#Output:'*****************************lorem ipsum'
+
+
+
