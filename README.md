@@ -1,7 +1,7 @@
 # Py_Primer:snake:
 
 Hey there aspiring coder! :smiley:
-Sick going through your boring textbook?
+Sick of going through your boring textbook?
 Choose and learn freely whatever you want from this categorized repo!
 We have explained concepts in an intuitive and fun manner.
 We also have Inbuilt methods documentation with examples documented in a formal manner!
