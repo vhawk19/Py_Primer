@@ -1,6 +1,6 @@
 **Author:** S Sandeep Pillai.
 
-**Edits:**
+**Edits:** Ashley TR
 
 ***
 
@@ -74,7 +74,7 @@ def multiplication(num1, num2):
         
 def division(num1, num2):
         div = num1 / num2
-        return(d)    # We can instead return the value, if we wish to use this value for other purposes in the program.
+        return(div)    # We can instead return the value, if we wish to use this value for other purposes in the program.
         
 def odd_even_checker(num1):
         if num1 % 2 == 0:       # We can implement an if clause in a function, as shown here.
