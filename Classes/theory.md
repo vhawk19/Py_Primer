@@ -57,7 +57,8 @@ We can use the @ symbol along with the name of the decorator function and place 
 @make_pretty
 def ordinary():
     print("I am ordinary")
-is equivalent to
+
+#is equivalent to
 
 def ordinary():
     print("I am ordinary")
