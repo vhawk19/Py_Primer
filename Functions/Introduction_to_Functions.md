@@ -27,7 +27,7 @@ Okay, fine, so a function needs to be defined beforehand for it to be used later
 to use the following keywords:
 
 ```python
-def function-name ( Argument-1, Argument-2, ... Argument-N )
+def function-name ( Argument-1, Argument-2, ... Argument-N )`:`   #Make sure you don't forget the colons in the end! (' : ')
     
     Line 1
     Line 2
@@ -46,7 +46,7 @@ contains the definition of a function. To use this function later, simply follow
 
 ```python
 
-function-name( Arg1, Arg2, ArgN )  #This will execute Lines 1 to 4 once.
+function-name( Arg1, Arg2, ArgN ):  #This will execute Lines 1 to 4 once.
 
 ```
 
@@ -60,20 +60,27 @@ But for now, let us diverge from that and look at how we can design a simple ari
 
 ```python
 
-def add(num1, num2)         # This function will take in 2 variable arguments.
+def add(num1, num2):         # This function will take in 2 variable arguments.
         sum = num1 + num2   # These arguments are added together and stored in the variable 'sum'.
         print(sum)          # The variable sum is then printed onto the console.
         
-def subtract(num1, num2)
+def subtract(num1, num2):
         print( num1 - num2 )    # Another method would be to simply print out the compount statement as shown, avoiding the 
                                 # the usage of a variable such as 'sum', helping reduce memory usage.
 
-def multiplication(num1, num2)
+def multiplication(num1, num2):
         multip = num1 * num2
         print(multip)
         
-def division(num1, num2)
+def division(num1, num2):
         print(num1 / num2)
+        
+def odd_even_checker(num1):
+        if num1 % 2 == 0:
+            print("EVEN")
+        else:
+            print("ODD")
+        
 
 
 ```
