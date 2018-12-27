@@ -1,6 +1,6 @@
 **Authors:** Pranav Shridhar and Mohita Bipin
 
-**Edits:** 
+**Edits:** Ashley Thomas Roy
 
 ***
 
