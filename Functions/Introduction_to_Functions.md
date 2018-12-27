@@ -27,13 +27,13 @@ Okay, fine, so a function needs to be defined beforehand for it to be used later
 to use the following keywords:
 
 ```python
-def function-name ( Argument-1, Argument-2, ... Argument-N )`:`   #Make sure you don't forget the colons in the end! (' : ')
+def function-name ( Argument-1, Argument-2, ... Argument-N ):   #Make sure you don't forget the colons in the end! (' : ')
     
     Line 1
-    Line 2
+    Line 2:
         Line 2.1
         Line 2.2
-        Line 2.3
+        Line 2.3:
             Line 2.3.1
             Line 2.3.2
     Line 3
