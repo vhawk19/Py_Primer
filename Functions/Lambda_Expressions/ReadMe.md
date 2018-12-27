@@ -19,7 +19,7 @@ square(5)
 
 #Output : 25
 ```
-_We can instead write this as a lambda expression as,_
+_We can instead write this as a lambda expression as,_ :heavy_check_mark:
 ```python
 #We do not usually assign a lambda expression to a variable. This is just for demonstration purposes.
 square = lambda x: x*x
@@ -57,7 +57,7 @@ print(list(map(square,m)))
 
 #Output : [1,4,9,16,25]
 ```
-_This can be written using lambda expressions as,_
+_This can be written using lambda expressions as,_ :heavy_check_mark:
 
 ```python
 a=[1,2,3,4,5]
@@ -91,7 +91,7 @@ print(list(filter(check_even,x)))
 
 #Output : [2,4]
 ```
-_This can be written using lambda expressions as,_
+_This can be written using lambda expressions as,_ :heavy_check_mark:
 ```python
 m=[1,2,3,4,5]
 print(list(filter(lambda x: x%2==0,m)))
