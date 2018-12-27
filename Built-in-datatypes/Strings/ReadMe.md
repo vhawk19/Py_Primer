@@ -244,6 +244,48 @@ Return the string right justified in a string of length width. Padding is done u
 a='lorem ipsum'
 a.rjust(40,'*')
 #Output:'*****************************lorem ipsum'
+```
+### str.split(sep=None,maxsplit=-1)
+Return a list of the words in the string, using sep as the delimiter string. If maxsplit is given, at most maxsplit splits are done (thus, the list will have at most maxsplit+1 elements). If maxsplit is not specified or -1, then there is no limit on the number of splits (all possible splits are made).
+
+```python
+a='lorem ipsum'
+a.split()
+#Output:['lorem', 'ipsum']
+```
+
+### str.splitlines([keepends])
+Return a list of the lines in the string, breaking at line boundaries. Line breaks are not included in the resulting list unless keepends is given and true.
+
+```python
+a='''lorem
+     ipsum'''
+a.splitlines()
+#Output:['lorem', 'ipsum']
+```
+### str.startswith(prefix[, start[, end]])
+Return True if string starts with the prefix, otherwise return False. prefix can also be a tuple of prefixes to look for. With optional start, test string beginning at that position. With optional end, stop comparing string at that position.
+
+```python
+a='lorem ipsum'
+a.startswith('lorem')
+#Output:True
+```
+### str.title()
+Return a titlecased version of the string where words start with an uppercase character and the remaining characters are lowercase.
+```python
+a='lorem ipsum'
+a.title()
+#Output:'Lorem Ipsum'
+```
+### str.upper()
+return a copy of the string with all the cased characters converted to uppercase.
+
+```python 
+a='lorem ipsum'
+a.upper()
+#Output:'LOREM IPSUM'
+```
 
 
 
