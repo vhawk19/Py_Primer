@@ -1,7 +1,10 @@
-# learnpy_by_practise
+# Py_Primer:snake:
 
-Hey there coder! :smiley:
-Sick with going through your boring textbook! Choose and learn freely whatever you want from this categorized repo!
+Hey there aspiring coder! :smiley:
+Sick going through your boring textbook?
+Choose and learn freely whatever you want from this categorized repo!
+We have explained concepts in an intuitive and fun manner.
+We also have Inbuilt methods documentation with example doxumented in a formal manner!
 
 ### ITS NOT BORING!:joy:
 
