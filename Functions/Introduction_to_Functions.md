@@ -15,8 +15,8 @@ Now before we get into the boring theory, let us dwelve into how we can use func
 ## Syntax
 
 There are two kinds of functions within python: 
-1) Implicit Functions
-2) Explicit Functions
+1) Built-In Functions 
+2) User Defined Functions
 
 Implicit Functions are predefined functions within Python, or a module linked through Python. We shall focus on Explicit Functions 
 for now.
@@ -85,15 +85,13 @@ multiplication( 42, 25 ) # Here, 42 is assigned to num1 and 25 is assigned to nu
 ```
 
 This will give us the output:
-```
-WHATEVER IS 42 * 25, I'm not your calculator!
-```
 
-I'm kidding, I'm kidding. It'll show the following output:
 
 ```
 1050
 ```
+
+**NOTE: Useful Built-In functions are discussed in the other modules of this 'textbook' ** 
 
 ## Advantages of using a function:
 
