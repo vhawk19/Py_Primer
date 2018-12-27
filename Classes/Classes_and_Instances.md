@@ -4,11 +4,13 @@
 
 # Classes and Instances
 
+
 * A class defines a set of attributes for an object and an object is an instance of a class.
 
 * Attributes include data members and methods.
 
 * Methods are essentially functions defined within a class and data members are variables which are also defined within a class.
+
 
 Yes, this seems a little complicated but it really isn't. Here's a simple analogy to help understand better:
 
@@ -76,7 +78,7 @@ class Potato:
 
 
     def info(self,kind):
-       self.kind= kind
+       self.kind = kind
 ```
 
 'info' is an example of a method and 'kind' is a data member (attribute) describing the type of potato.
@@ -112,10 +114,10 @@ class Potato:
 
 
     def info(self,kind):
-       self.kind= kind
+       self.kind = kind
 
 
-tato= Potato()
+tato = Potato()
 tato.info('uni-tato')
 print('Type of potato is:',tato.kind)
 ```
