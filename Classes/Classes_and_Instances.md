@@ -22,7 +22,7 @@ Now that the definitions are out of the way we'll be taking a closer look at cla
 
 ### Defining a Class
 
-To define a class use the class key word followed by the class name.
+To define a class use the class keyword followed by the class name.
 
 ```python
 
@@ -71,11 +71,11 @@ class Potato:
     "This class is a template of different types of potatoes"
 
 
-    def info(self,type):
-       self.type= type
+    def info(self,kind):
+       self.kind= kind
 ```
 
-info is an example of a method and type is a data member.
+info is an example of a method and kind is a data member describing the type of potato.
 
 'self' is a parameter as whenever a method is called the instance as a whole is passed automatically as the first parameter.
 
@@ -106,13 +106,13 @@ class Potato:
     "This class is a template of different types of potatoes"
 
 
-    def info(self,type):
-       self.type= type
+    def info(self,kind):
+       self.kind= kind
 
 
 tato= Potato()
 tato.info('uni-tato')
-print('Type of potato is:',tato.type)
+print('Type of potato is:',tato.kind)
 ```
 
 Output:
