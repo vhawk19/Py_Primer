@@ -15,7 +15,7 @@ We also have Inbuilt methods documentation with examples documented in a formal 
 ### ITS NOT BORING!:joy:
 
 ***
-### [Click here to leave a review](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
+### [Help us out by leaving a review! Click me please!(I get lonely:cry:)](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
 ***
 
 # Developed by:
