@@ -128,4 +128,6 @@ Output:
 Type of potato is: uni-tato
 ```
 
+***
+## [Wanna know more??](https://github.com/vhawk19/Py_Primer/blob/master/Classes/theory.md)
 
