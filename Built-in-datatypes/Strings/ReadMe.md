@@ -80,7 +80,7 @@ a.center(40,"*")
 #Output:'*******lorem ipsum dolor sit amet*******'
 ```
 ### str.count(sub[,start[,end]])
-Return the number of non-overlapping occurrences of substring sub in the range [start, end]. Optional arguments start and end are interpreted as in slice notation.
+Return the number of non-overlapping occurrences of substring sub in the range [start, end]. Optional arguments start and end are interpreted as in slice notation. 
 
 ```python
 a="lorem ipsum dolor sit amet"
@@ -92,7 +92,7 @@ a.count('i',7,9)
 #Output:0
 ```
 ### str.endswith(suffix[,start[,end]])
-Return True if the string ends with the specified suffix, otherwise return False. suffix can also be a tuple of suffixes to look for. With optional start, test beginning at that position. With optional end, stop comparing at that position.
+Return True if the string ends with the specified suffix, otherwise return False. Suffix can also be a tuple of suffixes to look for. With optional start, test beginning at that position. With optional end, stop comparing at that position.
 
 ```python
 a='lorem ipsum dolor sit amet"
@@ -130,7 +130,7 @@ Return true if all characters in the string are alphabetic and there is at least
 ```python
 a="lorem ipsum dolor sit amet"
 a.isalpha()
-#Outpu:True
+#Output:True
 ```
 ### str.isalnum()
 Return true if all characters in the string are alphanumeric and there is at least one character, false otherwise. A character c is alphanumeric if one of the following returns True: c.isalpha(), c.isdecimal(), c.isdigit(), or c.isnumeric().
@@ -216,9 +216,9 @@ a.lower()
 Return a copy of the string with leading characters removed. The chars argument is a string specifying the set of characters to be removed. If omitted or None, the chars argument defaults to removing whitespace. The chars argument is not a prefix; rather, all combinations of its values are stripped:
 
 ```python
-a=' lorem ipsum'
+a=' lorem ipsum' 
 a.lstrip()
-#Output:lorem ipsum
+#Output:lorem ipsum 
 a='lorem ipsum'
 a.lstrip('lo')
 #Output:rem ipsum
@@ -292,6 +292,4 @@ a='lorem ipsum'
 a.upper()
 #Output:'LOREM IPSUM'
 ```
-
-
 
