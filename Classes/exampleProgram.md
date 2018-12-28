@@ -1,4 +1,4 @@
-# Author: Pranav Shridhar
+### Author: Pranav Shridhar
 ## Example program illustrating classes.
 
 ```python
