@@ -58,6 +58,32 @@ Hello
 World
 ```
 
+## String Functions
+
+We can use some arithmetic operators with string for some manipulation with it.
+Arithmetic operators such as **+** or **\*** can be used for concatenation or repitition respectively.
+For concatenation both operands should be string literals and for repitition one should be a string literal and the other should be an integer literal.
+For repition where the operands are different, the order of operands doesn't matter
+```python
+a = 'a'
+b = 'b'
+print(a+b)
+print(a+str(5)) #for concatenating numbers str() function has to be used so as to convert the integer to a string literal
+print(a*5)
+print(5*b)
+print(2*a*2)
+print(2*2*b)
+```
+Output:
+```
+ab
+a5
+aaaaa
+bbbbb
+aaaa
+bbbb
+```
+
 ## String Methods
 
 ### str.capitalize()
