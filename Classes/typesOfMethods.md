@@ -140,4 +140,4 @@ class Person:
 * Example* for decorators taken from https://www.programiz.com/python-programming/decorator
 
 ***
-## [Searching for an example??](https://github.com/vhawk19/Py_Primer/blob/master/Classes/eg_program.md)
+## [Searching for an example??](https://github.com/vhawk19/Py_Primer/blob/master/Classes/exampleProgram.md)
