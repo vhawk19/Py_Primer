@@ -9,7 +9,7 @@
 
 A class variable or static variable is shared by all objects of a class.
 
-Lets use the example of a book shop whose items are objects of class 'Items'.
+Let's use the example of a bookshop whose items are objects of class 'Items'.
 
 ```python
 class Items:
@@ -25,7 +25,7 @@ class Items:
 The data member ```type``` is the same for each object as every item in the
 book store is the same (and is a book).
 
-Looking further into the topic lets create a few objects and call the methods
+Looking further into the topic let's create a few objects and call the methods
 for both and see what happens.
 
 ```python
@@ -52,8 +52,8 @@ Genre: Philosophical Fiction
 Type: book
 ```
 
-Notice how the type for both are the same? Well thats how a class variable
-is. Its the same for all instances of the class.
+Notice how the type for both are the same? Well that's how a class variable
+is. It's the same for all instances of the class.
 
 ### Altering a Class Variable
 
@@ -62,7 +62,7 @@ through the **class name** and **not object name**
 
 ``` class_name.class_variable_name```
 
-So lets try it out using 'Items' again :
+So let's try it out using 'Items' again :
 
 ```python
 
@@ -95,4 +95,4 @@ See how the value of the data member changed for both objects and not just
 one? This shows that class variables are common to all objects of a class.
 
 ***
-## [Alright...lets go ahead, Shall we?](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Inheritance.md)
+## [Alright...let's go ahead, Shall we?](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Inheritance.md)
