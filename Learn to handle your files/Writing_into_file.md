@@ -41,7 +41,8 @@ Now we have successfully opened the file in write mode.In the second line, we ha
 
 **Append() function**:-
 
-If the file already exists, opening it in write mode clears out the old data and starts fresh, so be careful!!.Inorder to avoid this, we have the append function. The append function is used to append to the file instead of overwriting it.
+If the file already exists, opening it in write mode clears out the old data and starts fresh, so be careful!!
+Inorder to avoid this, we have the append function. The append function is used to append to the file instead of overwriting it.
 To append to an existing file, simply open the file in append mode ("a"):
 ______________________________
 ### Line 3-
@@ -51,14 +52,16 @@ ______________________________
 ```
 
 After writing into the file finally, we need to tell Python when we’re finished, by using the close function.It free up any system
-resources taken up by the open file.Python automatically closes a file when the reference object of a file is reassigned to another file. It is a good practice to use the close() method to close a file.
+resources taken up by the open file.Python automatically closes a file when the reference object of a file is reassigned to another file. However it is a good practice to use the close() method to close a file.
 
 ______________________________
-     
-     *Example II*
-
-
+   
+   
 We have successfully created a new file and entered some contents to it. Let us see one more example:-
+     #### *Example II*
+
+
+Here we open a file called *new.txt*. We have a *for loop* that runs over a range of 5 numbers.We use the write function to enter data into the file. 
 ```python
 f= open("new.txt","a")
 for i in range(5):
@@ -66,7 +69,7 @@ for i in range(5):
 f.close()     
      
 ```
-Here we open a file called new.We have a for loop that runs over a range of 10 numbers.Using the write function to enter data into the file. The result after code execution is as follows:-
+The result after code execution is as follows:-
 ```python
 This is line 1
 This is line 2
