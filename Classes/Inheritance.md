@@ -70,4 +70,4 @@ Contains seeds
 As you can see from the output both objects can access the attributes of the parent class
 
 ***
-## [How about inheriting some theory now??](https://github.com/vhawk19/Py_Primer/blob/master/Classes/theory.md)
+## [How about inheriting some theory on types of methods now??](https://github.com/vhawk19/Py_Primer/blob/master/Classes/typesOfMethods.md)
