@@ -38,7 +38,7 @@ In addition you can specify if the file should be handled as binary or text mode
 ______________________________
 Now we have successfully opened the file in write mode.In the second line, we have the write function. Inside the write function, we specify the content we want write into our file.
 **Append() function**
-When we use write function, it overwrites the file and the existing data in the file is lost.The append function is used to append to the file instead of overwriting it.
+If the file already exists, opening it in write mode clears out the old data and starts fresh, so be careful!!.Inorder to avoid this, we have the append function. The append function is used to append to the file instead of overwriting it.
 To append to an existing file, simply open the file in append mode ("a"):
 
 ### Line 3-
