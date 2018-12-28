@@ -1,6 +1,6 @@
 **Author(s): Mohita Liza Bipin**
 
-**Editor(s):**
+**Editor(s):** 
 
 
 # Class Variables
@@ -9,24 +9,24 @@
 
 A class variable or static variable is shared by all objects of a class.
 
-Lets use the example of a book shop whose items are objects of class Items
+Lets use the example of a book shop whose items are objects of class 'Items'.
 
 ```python
 class Items:
-    type="book"
-    def enter_info(self,name,genre):
-        self.name= name
-        self.genre= genre
+    type = "book"
+    def enter_info(self, name, genre):
+        self.name = name
+        self.genre = genre
 
     def print_info(self):
-        print("Title:", self.name,"\nGenre:",self.genre, "\n\n")
+        print("Title : ", self.name, "\nGenre : ", self.genre, "\n\n")
 ```
 
 The data member ```type``` is the same for each object as every item in the
-book store is the same (and is a book)
+book store is the same (and is a book).
 
 Looking further into the topic lets create a few objects and call the methods
-for both and see what happens
+for both and see what happens.
 
 ```python
 
@@ -39,7 +39,7 @@ Book1.print_info()
 Book2.print_info()
 ```
 
-The output will be
+The output will be : 
 
 ```python
 Title: The Hitchhiker's Guide to the Galaxy
@@ -91,8 +91,8 @@ Genre: Philosophical Fiction
 Type: I am an awesome book!
 ```
 
-See how the value of the data memeber changed for both objects and not just
-one. This is shows that that class variables are common to all objects of a class.
+See how the value of the data member changed for both objects and not just
+one? This shows that class variables are common to all objects of a class.
 
 ***
 ## [Alright...lets go ahead, Shall we?](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Inheritance.md)
