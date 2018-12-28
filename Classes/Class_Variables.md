@@ -58,11 +58,11 @@ is. Its the same for all instances of the class.
 ### Altering a Class Variable
 
 The correct way to alter a class variable is by accessing the static variable
-through the **class name** and __**not object name**
+through the **class name** and **not object name**
 
 ``` class_name.class_variable_name```
 
-So lets try it out using Items again
+So lets try it out using 'Items' again :
 
 ```python
 
