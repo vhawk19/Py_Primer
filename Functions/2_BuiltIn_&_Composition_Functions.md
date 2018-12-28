@@ -4,7 +4,7 @@
 
 ***
 
-Now let us look at some of the inbuilt functions (that you need to byheart lol).
+Now let us look at some of the inbuilt functions (that you need to by heart lol).
 
 # Inbuilt Functions
 
@@ -79,7 +79,7 @@ Below I shall list a few more important functions that can be useful:
 ```python
 
 abs(x-y) 
-# Basically acts as a modulus function, giving the distance between x and y. Note that abs isnt part of the math module.
+# Basically acts as a modulus function, giving the distance between x and y. Note that abs isn't part of the math module.
 
 math.ceil(x) 
 # Returns the smallest integer greater than x, i.e 1.2 will give 2 as the output. Think Ceiling - Above.

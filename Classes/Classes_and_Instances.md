@@ -9,7 +9,7 @@
 
 * Attributes include data members and methods.
 
-* Methods are essentially functions defined within a class and data members are variables which are also defined within a class.
+* Methods are functions defined within a class and data members are variables which are also defined within a class.
 
 
 Yes, this seems a little complicated but it really isn't. Here's a simple analogy to help understand better :
@@ -47,7 +47,7 @@ class example:
 ```
 
 
-Now lets try applying this to our previous example, Potato.
+Now let's try applying this to our previous example, Potato.
 
 ```python
 class Potato:
@@ -77,7 +77,7 @@ class Potato:
     '''This class is a template of different types of potatoes'''
 
 
-    def info(self,kind):        # self? whats that!?
+    def info(self,kind):        # self? what's that!?
        self.kind = kind
 ```
 
@@ -88,10 +88,10 @@ class Potato:
 
 ### Q: WAIT WAIT WAIT WAIT, WHAT IS THIS `SELF` KEYWORD??? 
 
-If you're like me, having learned C++ and coming over to python, you might be utterly confused with the reason python uses the `self` keyword. Infact, **`self` is not a keyword, you can use any word you like!** 
+If you're like me, having learned C++ and coming over to python, you might be utterly confused with the reason python uses the `self` keyword. In fact, **`self` is not a keyword, you can use any word you like!** 
 
 
-So in short, the `self` object is used to denote an `instance` variable, and its unique to that particular object of the class, not EVERY object of the class.
+So in short, the `self` object is used to denote an `instance` variable and its unique to that particular object of the class, not EVERY object of the class.
 
 Consider the code below:
 
@@ -107,7 +107,7 @@ class B():
 ```
 Here is an important distinction:
 
-A.x is a class variable, and will be **shared across all instances of A**, unless specifically overridden within an instance.
+A.x is a class variable, and will be **shared across all instances of A** unless specifically overridden within an instance.
 B.x is an instance variable, and **each instance of B has its own version of it.**
 
 
@@ -126,7 +126,7 @@ A new instance called 'instance_name' is created here.
 
 ### Accessing Attributes Through an instance
 
-The next step is to access an object's attributes which can be done using the dot operator '.' you might recognise it from earlier in the docstrings section.
+The next step is to access an object's attributes which can be done using the dot operator '.' you might recognize it from earlier in the docstrings section.
 
 ```python
 instance_name.data

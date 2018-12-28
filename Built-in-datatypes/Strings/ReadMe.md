@@ -1,5 +1,5 @@
 **Author:** [vhawk19](www.github.com/vhawk19)</br>
-**Editor(s):**[Emmanuel Antony](https://github.com/emmanuelantony2000)
+**Editor(s):** [Emmanuel Antony](https://github.com/emmanuelantony2000)
 
 
 # String
@@ -10,19 +10,19 @@ They can be written in a variety of ways
 ```python
 # Single quotes
 'allows embedded double quotes like these "" '
-'Bob asked me,"Do you belive in unicorns?"'
+'Bob asked me, "Do you believe in unicorns?"'
 
 # Double quotes
-"allows embeded single quotes like these '' "
+"allows embedded single quotes like these '' "
 "I'm going fishing someday!"
 
-#triple Double/Single quote, these can span across multiple lines(all associated whitespce charecters will be included in the string) 
+#triple Double/Single quote, these can span across multiple lines(all associated whitesapce characters will be included in the string) 
 '''tripled single quote which allows for embedded double quotes'''
-"""tripled double quotes which allows for embedded single quotes"""
-String literals in python are surrounded by either single quotation marks, or double quotation marks.
+"""tripled double quotes which allow for embedded single quotes"""
+String literals in python are surrounded by either single quotation marks or double quotation marks.
 
 ```
-* Strings maybe constructed from other objects using the **str** function
+* Strings may be constructed from other objects using the **str** function
 ```python
 a=str(10)
 #here a is nothing but a string "10"/'10'
@@ -30,7 +30,7 @@ a=str(10)
 
 Strings can be output to screen using the print function. For example: print("hello").
 
-Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
+Like many other popular programming languages, strings in Python are arrays of bytes representing Unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.
 
 ```python
 a="this is a string"
@@ -40,7 +40,7 @@ a="this is a string"
 
 String literals can be printed using the print function.
 
-Use ' ' **single quotes** or " " **double quotes** for single line printing and ''' ''' **three single quotes** for multi line printing.
+Use ' ' **single quotes** or " " **double quotes** for single line printing and ''' ''' **three single quotes** for multi-line printing.
 ```python
 print('Hello World')
 print("Hello World")
@@ -70,7 +70,7 @@ print(a)
 #Output: Lorem ipsum dolor sit amet
 ```
 ### str.center(width[, fillchar])
-Return centered in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if width is less than or equal to len(s).
+Return centered in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if the width is less than or equal to len(s).
 
 ```python
 a="lorem ipsum dolor sit amet"
@@ -119,7 +119,7 @@ a.find("ipsum",7,10)
 #Output:-1
 ```
 ### str.format(\*args,\*\*kwargs)
-Perform a string formatting operation. The string on which this method is called can contain literal text or replacement fields delimited by braces {}. Each replacement field contains either the numeric index of a positional argument, or the name of a keyword argument. Returns a copy of the string where each replacement field is replaced with the string value of the corresponding argument.
+Perform a string formatting operation. The string on which this method is called can contain literal text or replacement fields delimited by braces {}. Each replacement field contains either the numeric index of a positional argument or the name of a keyword argument. Returns a copy of the string where each replacement field is replaced with the string value of the corresponding argument.
 ```python
 a="lorem ipsum dolor sit amet is {0}"
 a.format(1+2)
@@ -165,7 +165,7 @@ a.islower()
 #Output:True
 ```
 ### str.isspace()
-Return true if there are only whitespace characters in the string and there is at least one character, false otherwise. Whitespace characters are those characters defined in the Unicode character database as “Other” or “Separator” and those with bidirectional property being one of “WS”, “B”, or “S”.
+Return true if there are only whitespace characters in the string and there is at least one character, false otherwise. Whitespace characters are those characters defined in the Unicode character database as “Other” or “Separator” and those with the bidirectional property being one of “WS”, “B”, or “S”.
 
 ```python
 a="lorem ipsum dolor sit amet"
@@ -173,7 +173,7 @@ a.isspace()
 #Output:False
 ```
 ### str.istitle()
-Return true if the string is a titlecased string and there is at least one character, for example uppercase characters may only follow uncased characters and lowercase characters only cased ones. Return false otherwise.
+Return true if the string is a titlecased string and there is at least one character, for example, uppercase characters may only follow uncased characters and lowercase characters only cased ones. Return false otherwise.
 ```python
 a="lorem ipsum dolor sit amet"
 a.istitle()
@@ -224,7 +224,7 @@ a.lstrip('lo')
 #Output:rem ipsum
 a='abababcfghasab'
 a.lstrip('ab')
-#Output:cfghasab All patterns of the given substring till another pattern is found will be stripped away starting form the left
+#Output:cfghasab All patterns of the given substring till another pattern is found will be stripped away starting from the left
 ```
 
 ### str.partition(sep)
@@ -244,7 +244,7 @@ a.replace('l','u')
 ```
 
 ### str.rjust(width[ ,fillchar])
-Return the string right justified in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if width is less than or equal to len(s).
+Return the string right justified in a string of length width. Padding is done using the specified fillchar (default is an ASCII space). The original string is returned if the width is less than or equal to len(s).
 
 ```python
 a='lorem ipsum'
@@ -270,7 +270,7 @@ a.splitlines()
 #Output:['lorem', 'ipsum']
 ```
 ### str.startswith(prefix[, start[, end]])
-Return True if string starts with the prefix, otherwise return False. prefix can also be a tuple of prefixes to look for. With optional start, test string beginning at that position. With optional end, stop comparing string at that position.
+Return True if the string starts with the prefix, otherwise return False. prefix can also be a tuple of prefixes to look for. With optional start, test string beginning at that position. With optional end, stop comparing string at that position.
 
 ```python
 a='lorem ipsum'

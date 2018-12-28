@@ -1,6 +1,6 @@
 # Py_Primer:snake:
 
-Hey there aspiring coder! :smiley:
+Hey, there aspiring coder! :smiley:
 Sick of going through your boring textbook?
 Choose and learn freely whatever you want from this categorized repo!
 We have explained concepts in an intuitive and fun manner.

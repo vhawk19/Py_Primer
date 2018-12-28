@@ -38,7 +38,7 @@ a=[x for x in range(2)]
 Here, `a=[0,1]`.
 
 # Nested Lists
-A list can even have another list as an element. This is called nested list.
+A list can even have another list as an element. This is called a nested list.
 ```python
 # nested list
 my_list = ["mouse", [8, 4, 6], ['a']]
@@ -55,7 +55,7 @@ l[2]="abc"
 l[3]=12
 ```
 
-Trying to access an element other than 0 to 3 indices will raise an `IndexError` and not providing an integer value as index will create a `TypeError`.
+Trying to access an element other than 0 to 3 indices will raise an `IndexError` and not providing an integer value as the index will create a `TypeError`.
 
 ## Negative Indexing
 The index of -1 refers to the last item, -2 to the second last item and so on.
@@ -83,7 +83,7 @@ l[3][2]=12
 ```
 # Slice Operator
 
-Slice operation is used to access a specified range elements in a list.
+Slice operation is used to access a specified range of elements in a list.
 
 General syntax:  `list_name[start:stop:step]`
 
@@ -185,7 +185,7 @@ del(l[1:4])
 Now, `l=[1,5,6]`.
 
 ## Remove function
-`remove()` is used when index is unknown.
+`remove()` is used when the index is unknown.
 
 Syntax: `list_name.remove(value)`
 
@@ -197,7 +197,7 @@ l.remove(3)
 Now, `l=[1,2,4,3]` since only the first occurence of the element is considered.
 
 ## Pop function
-`pop()` returns and removes last element of the list.
+`pop()` returns and removes the last element of the list.
 
 Syntax: `list_name.pop()`
 
@@ -208,7 +208,7 @@ l.pop()
 ```
 Here, `5` is returned and `l=[1,2,3,4]`.
 
-Index can also be given in the parantheses to remove a specific element in the list.
+An index can also be given in the parentheses to remove a specific element in the list.
 
 # Other Functions
 
@@ -252,7 +252,7 @@ For sorting in descending order, we use the following syntax:
 list_name.sort(reverse=True)
 ```
 
-**NOTE: The sort() function is NOT the same as the sorted() function. sort() is a subfunction of list datatype which `CANNOT` be used for other datatypes such as tuples or dictionaries.** 
+**NOTE: The sort() function is NOT the same as the sorted() function. sort() is a subfunction of list datatype which `CANNOT` be used for other data types such as tuples or dictionaries.** 
 
 `
 
@@ -269,7 +269,7 @@ print(max(l))
 Output: `9`
 
 ## Count function
-`count()` returns the number of occurences of the given value in the list.
+`count()` returns the number of occurrences of the given value in the list.
 
 Synatx: `list_name.count(value)`
 
@@ -293,6 +293,6 @@ print(l.index(4))
 ```
 Output: `3`
 
-In case of multiple occurences of a value, the first occurence is considered.
+In case of multiple occurrences of a value, the first occurrence is considered.
 
 ***

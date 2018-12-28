@@ -21,7 +21,7 @@ def make_pretty(func):
 def ordinary():
     print("I am ordinary")
 ```
-When you run the following codes in shell
+When you run the following codes in a shell
 
 ```python
 >>>ordinary()
@@ -66,11 +66,11 @@ ordinary = make_pretty(ordinary)
 ```
 
 
-# Regular Methods, Class Methods and Static Methods
+# Regular Methods, Class Methods, and Static Methods
 
 ## Regular Methods
 * They are plain functions written inside a class. They require an instance variable.
-* The word 'self' is generally used in the naming of the first arguement which refers to the current instance.
+* The word 'self' is generally used in the naming of the first argument which refers to the current instance.
 * The statements written inside this affects a single instance/object presently in use.
 * It requires no additional syntax.
 
@@ -81,12 +81,12 @@ def Addition(self, a, b):  # 'a' and 'b' are  instance variables
     return sum
 ```
 
-The above function return the sum of two variables held inside one instance.
+The above function returns the sum of two variables held inside one instance.
 
 ## Class Methods
 
 * They are methods/functions which require a class variable.
-* The word 'cls' is generally used in the naming of the arguement which refers to the current class.
+* The word 'cls' is generally used in the naming of the argument which refers to the current class.
 * The statements written inside this affects the entire class instances/objects.
 * The decorator keyword '@classmethod' is used before the actual function.
 
@@ -109,7 +109,7 @@ The above function upon calling changes the value of 'raise_amount' to 1.5 for a
 
 ## Static Methods
 
-* They are methods/functions which do not require neither class variable nor instance variable. 
+* They are methods/functions which do require neither class variable nor instance variable. 
 * The decorator keyword '@staticmethod' is used before the actual function.
 * Static methods, much like class methods, are methods that are bound to a class rather than its object.
 * They do not require a class instance creation. So, are not dependent on the state of the object.
@@ -130,7 +130,7 @@ class Person:
 ### Difference b/w classmethod and staticmethod
 
 * Static method knows nothing about the class and just deals with the parameters.
-* Class method works with the class since its parameter is always the class itself.
+* The class method works with the class since its parameter is always the class itself.
 
 
 

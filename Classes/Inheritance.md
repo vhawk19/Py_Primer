@@ -2,11 +2,11 @@
 
 # Inheritance
 
-A class can inherit attributes from an other class called a super or parent class,
+A class can inherit attributes from another class called a super or parent class,
 the former is called the child class
 
-Compare this to fruit.Apples and strawberries are both fruits and have
-the same basic prequisites for a typical fruit but each their own characteristics
+Compare this to fruit. Apples and strawberries are both fruits and have
+the same basic prerequisites for a typical fruit but each their own characteristics
 In this situation the parent class would be fruit and the child classes would be
 the apple and strawberry classes
 
@@ -21,7 +21,7 @@ class class_name (super_class_name):
 
 ### Time for an example
 
-So lets see an example based on the earlier one of fruits
+So let's see an example based on the earlier one of fruits
 
 ```python
 class fruit():
@@ -44,7 +44,7 @@ class Strawberry(fruit):
 
 As before Strawberry and Apple inherit from fruit which means all of their
 objects will have the attributes of the class fruit but why should you believe me?
-Lets test it out by creating objects and seeing what happens
+Let's test it out by creating objects and seeing what happens
 
 ```python
 a = Apple()
