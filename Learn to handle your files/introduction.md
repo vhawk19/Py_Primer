@@ -1,7 +1,7 @@
 # Introduction
 __________________________________________________________
 
-Suppose you are working on a very important project and you are entering some valuable data into your program. While a program is running, its data is stored in random access memory (RAM). RAM is fast and inexpensive, but it is also volatile, which means that when the program ends, or the computer shuts down, data in RAM disappears. Since, if the power goes off all your hard work and valuable data goes into vain. To make data available the next time the computer is turned on and the program is started, it has to be written to a non-volatile storage medium, such a hard drive, usb drive, or CD-RW. Data on non-volatile storage media is stored in named locations called ﬁles.   
+Suppose you are working on a very important project and you are entering some valuable data into your program. While a program is running, its data is stored in random access memory (RAM). RAM is fast and inexpensive, but it is also volatile, which means that when the program ends, or the computer shuts down, data in RAM disappears. Hence, if the power goes off all your hard work and valuable data goes into vain. To make data available the next time the computer is turned on and the program is started, it has to be written to a non-volatile storage medium, such a hard drive, usb drive, or CD-RW. Data on non-volatile storage media is stored as ﬁles.      
 
 
 Python files are the same as other files on your computer: documents, pictures, music, games . . . indeed, everything on your computer is stored as files.
