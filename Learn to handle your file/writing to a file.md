@@ -1,3 +1,10 @@
+**Authors:** Annu Jolie
+
+**Edits:** 
+
+***
+
+
 ## A simple file program  
 
 Now let us try to write a simple python program to add text into an empty file
