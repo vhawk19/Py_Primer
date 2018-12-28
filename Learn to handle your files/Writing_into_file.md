@@ -1,6 +1,7 @@
 ## A simple file program  
 
 Now let us try to write a simple python program to add text into an empty file
+<img src="http://eras4solutions.com/wp-content/uploads/2018/03/612948-BOS0148.gif"  width="150" height="150" />
 ```python
 new_file = open("test.txt", "w") 
 new_file.write("This is my first python program \n I am really excited about it!!)
