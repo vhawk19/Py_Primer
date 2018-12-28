@@ -1,13 +1,13 @@
 **Authors:** Annu Jolie
 
-**Edits:** 
+**Edits:** Pranav Shridhar
 
 ***
 
 
 ## A simple file program  
 
-Now let us try to write a simple python program to add text into an empty file
+Now let us try to write a simple python program to add text into an empty file.
 <img src="http://eras4solutions.com/wp-content/uploads/2018/03/612948-BOS0148.gif"  width="150" height="150" />
 ```python
 new_file = open("test.txt", "w") 
@@ -15,7 +15,7 @@ new_file.write("This is my first python program \n I am really excited about it!
 new_file.close()
 ```
 
-Let us try to break it down and understand each line of code in the above program
+Let us try to break it down and understand each line of code in the above program.
 ### Line 1-
 ```diff
 +  Open() function
@@ -28,15 +28,15 @@ On the first line, we have the open function.We declared a variable *new_line* t
 
 2. **Mode**: Here we used "w" letter in our argument, which indicates write mode.This arguement tells python whether we are reading from a file or writing into it. Other than "w", we have different other modes for opening a file
 
-*Different methods (modes) for opening a file:*
+*Different methods (modes) for opening a file :*
 
-* "r" - Read - Default value. Opens a file for reading, error if the file does not exist
-* "a" - Append - Opens a file for appending, creates the file if it does not exist
-* "w" - Write - Opens a file for writing, creates the file if it does not exist
+* "r" - Read : Default value. Opens a file for reading, error if the file does not exist.
+* "a" - Append : Opens a file for appending, creates the file if it does not exist.
+* "w" - Write : Opens a file for writing, creates the file if it does not exist.
 
 In addition you can specify if the file should be handled as binary or text mode
-* "t" - Text - Default value. Text mode
-* "b" - Binary - Binary mode (e.g. images)
+* "t" - Text : Default value. Text mode
+* "b" - Binary : Binary mode (e.g. images)
 _____________________
 ### Line 2-
 ```diff
@@ -64,7 +64,7 @@ resources taken up by the open file.Python automatically closes a file when the 
 ______________________________
    
    
-We have successfully created a new file and entered some contents to it. Let us see one more example:-
+We have successfully created a new file and entered some contents to it. Let us see one more example :-
      
    #### *Example II*
 
@@ -77,7 +77,7 @@ for i in range(5):
 f.close()     
      
 ```
-The result after code execution is as follows:-
+The result after code execution is as follows :-
 ```python
 This is line 1
 This is line 2
