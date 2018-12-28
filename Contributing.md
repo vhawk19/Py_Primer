@@ -29,7 +29,7 @@ If you want to do something a little bigger such as adding a new file or feature
 in that case open an issue and discuss how to go about it there before making any changes.
 
 
-### That it (Yay~)
+### That it (yay~)
 
-Seriously thats it. You can start contributing now!
+Seriously thats it.Now you can start contributing whenever you like! 
 
