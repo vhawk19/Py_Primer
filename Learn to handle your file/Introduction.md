@@ -1,6 +1,6 @@
 **Authors:** Annu Jolie
 
-**Edits:** 
+**Edits:** Pranav Shridhar
 
 ***
 
@@ -20,7 +20,11 @@ Python files are the same as other files on your computer: documents, pictures, 
 
 Working with ﬁles is a lot like working with a notebook.<img src="https://media.giphy.com/media/MTjM7okzpQu88/giphy.gif"  width="180" height="110" float="left"/>
  
-To use a notebook, it has to be opened. When done, it has to be closed. While the notebook is open, it can either be read from or written to. In either case, the notebook holder knows where they are. They can read the whole notebook in its natural order or they can skip around.
+To use a notebook :
+* It has to be opened.
+* When done, it has to be closed.
+* While the notebook is open, it can either be read from or written to.
+* In either case, the notebook holder knows where they are. They can read the whole notebook in its natural order or they can skip around.
 
 Similarly in python, a file operation takes place in the following order.
 1.	Open a file
