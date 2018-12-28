@@ -8,7 +8,7 @@ new_file.close()
 ```
 
 Let us try to break it down and understand each line of code in the above program
-
+## Line 1-
 ```diff
 +  Open() function
 
@@ -25,14 +25,14 @@ On the first line, we have the open function.We declared the variable *new_line*
 * "r" - Read - Default value. Opens a file for reading, error if the file does not exist
 * "a" - Append - Opens a file for appending, creates the file if it does not exist
 * "w" - Write - Opens a file for writing, creates the file if it does not exist
-* "x" - Create - Creates the specified file, returns an error if the file exists
+
 In addition you can specify if the file should be handled as binary or text mode
 * "t" - Text - Default value. Text mode
 * "b" - Binary - Binary mode (e.g. images)
 
-
+## Line 2-
 ```diff
- + write() function
++ write() function
 
 ```
 ______________________________
@@ -41,7 +41,7 @@ Now we have successfully opened the file in write mode.In the second line, we ha
 When we use write function, it overwrites the file and the existing data in the file is lost.The append function is used to append to the file instead of overwriting it.
 To append to an existing file, simply open the file in append mode ("a"):
 
-
+## Line 3-
 ```diff
 + close() function
 
