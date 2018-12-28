@@ -1,3 +1,10 @@
+**Authors:** Annu Jolie
+
+**Edits:** 
+
+***
+
+
 ## Reading the entire file in a go
 In the previous page you have learned how to write into a file. Now let us understand how to read from a file. 
 
