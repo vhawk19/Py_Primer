@@ -1,15 +1,15 @@
 # Contributing Guidelines
 
-So you have gone through Py_Primer and now want to start contributing.
+So you have gone through Py_Primer and now you want to start contributing.
 That's great! Python is always changing and keeping the primer relevent is
-an important task.
+an important task. We are always looking for people to help keep it up to date
 
 
 ### Wait! Why should I even bother reading this?
 
 We want to keep it easy to contribute and maintaing structure is the best
-way to prevent anarchy. Ok I'm being a bit melodramatic here. We just want the
-process of contributing to flow smoothly with out any hitches.
+way to prevent the primer from falling into anarchy. Ok I'm being a bit melodramatic 
+here. We just want the process of contributing to flow smoothly with out any hitches.
 
 ### What kind of contributions are you even looking for?
 
@@ -29,7 +29,7 @@ If you want to do something a little bigger such as adding a new file or feature
 in that case open an issue and discuss how to go about it there before making any changes.
 
 
+### That it (Yay~)
 
-
-
+Seriously thats it. You can start contributing now!
 
