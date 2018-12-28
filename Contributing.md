@@ -15,7 +15,7 @@ here. We just want the process of contributing to flow smoothly with out any hit
 
 Almost any kind of contribution is welcome as long as the guidelines are
 followed. No contribution is too small. Go ahead and correct grammar or spelling
-mistakes. Add a new topic or even a new feature is you're up to it!
+mistakes. Add a new topic or even a new feature if you're up to it!
 
 ## The Ground Rules:straight_ruler:
 #### (Don't panic! There are only two)
@@ -25,7 +25,7 @@ If you want to update present topics or example code; go ahead and
 pull a request after making your own fork and adding your changes.
 
 
-If you want to do something a little bigger such as adding a new file or feature;
+Say you want to do something a little bigger such as adding a new file or feature;
 in that case open an issue and discuss how to go about it there before making any changes.
 
 
