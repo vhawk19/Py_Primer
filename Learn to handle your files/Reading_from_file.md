@@ -34,7 +34,7 @@ This is my fi
 _____________________________________________________
 
 
-### Read the file line by file
+### Read the file line by line
 You can read the contents of a file, line by line by using the readline() method.If have a very long file, readline() method is more efficient and convenient
 
 **_Example I_** - Read one line of the file:
