@@ -4,7 +4,7 @@ Hey there aspiring coder! :smiley:
 Sick of going through your boring textbook?
 Choose and learn freely whatever you want from this categorized repo!
 We have explained concepts in an intuitive and fun manner.
-We also have Inbuilt methods documentation with examples documented in a formal manner!
+We also have In-built Methods documentation with examples documented in a formal but beginner-friendly manner!
 <br>
 ## Contents
 + ### [str("strings are easy,but there are so many methods!!")](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Strings/ReadMe.md)
