@@ -1,3 +1,6 @@
+# Author: Pranav Shridhar
+## Example program illustrating classes.
+
 ```python
 class Car:
     def __init__(self, capacity, type, color, model): # Initiates instance/object
