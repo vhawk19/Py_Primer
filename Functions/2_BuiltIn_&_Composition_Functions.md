@@ -64,6 +64,7 @@ math.log10(1000)         # Input
 >>> 3                    # Output
 ```
 
+---
 By now, if you are tired of typing out 'math' repeatedly, you can opt for a shorthand style as follows :
 
 ```python
@@ -71,6 +72,7 @@ import math as m
 m.sin(m.pi/2)         # Input
 >>> 8                 # Output
 ```
+---
 
 Below I shall list a few more important functions that can be useful:
 
