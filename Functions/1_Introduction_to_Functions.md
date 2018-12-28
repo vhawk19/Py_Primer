@@ -1,6 +1,6 @@
 **Author:** S Sandeep Pillai.
 
-**Edits:** Ashley TR
+**Edits:** Ashley TR, Pranav Shridhar
 
 ***
 
@@ -92,7 +92,7 @@ multiplication( 42, 25 ) # Here, 42 is assigned to num1 and 25 is assigned to nu
 
 ```
 
-This will give us the output:
+This will give us the output :
 
 
 ```
@@ -103,11 +103,11 @@ This will give us the output:
 
 ## Advantages of using a function:
 
-  * It allows for a significantly shorter length for the program code. 
-  * You can reuse the code repeatedly instead of rewriting the same set of instructions again.
-  * Significantly improves code debugging: it'll allow you to pinpoint an error to a specific code block.
-  * If a certain function breaks during developement, you can still run the rest of the program without issues.
-  * Allows division of labour: each member can work on a seperate function without conflicting code.
+  * It allows for a significantly shorter length of the program code. 
+  * You can reuse the code repeatedly (by calling the function) instead of rewriting the same set of instructions again.
+  * Significantly improves code debugging - it will allow you to pinpoint an error to a specific code block.
+  * If a certain function breaks during developement, you can still run the rest of the program without issues (by commenting out that particular function).
+  * Allows division of labour: each member can work on a separate function without conflicting code.
 
 ***
-## [Intresting? You might be interested in compund and builtin functions](https://github.com/vhawk19/Py_Primer/blob/master/Functions/2_BuiltIn_%26_Composition_Functions.md)
+## [Interesting? You might be interested in compound and built-in functions](https://github.com/vhawk19/Py_Primer/blob/master/Functions/2_BuiltIn_%26_Composition_Functions.md)
