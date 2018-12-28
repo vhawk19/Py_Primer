@@ -52,7 +52,9 @@ After writing into the file finally, we need to tell Python when we’re finishe
 resources taken up by the open file.Python automatically closes a file when the reference object of a file is reassigned to another file. It is a good practice to use the close() method to close a file.
 
 ______________________________
+       *Example II*
 ______________________________
+
 We have successfully created a new file and entered some contents to it. Let us see one more example:-
 ```python
 f= open("new.txt","a")
