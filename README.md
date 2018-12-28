@@ -20,6 +20,8 @@ We also have In-built Methods documentation with examples documented in a formal
 ***
 ### [Help us out by leaving a review! Click me please!(I get lonely:cry:)](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
 ***
+### [Want to contribute to this Repo? Click Me!!](https://github.com/vhawk19/Py_Primer/blob/master/Contributing.md)
+***
 
 # Developed by:
  + #### [vhawk19](https://github.com/vhawk19) (Varun)
