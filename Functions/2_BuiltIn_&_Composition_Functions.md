@@ -1,6 +1,6 @@
 **Author:** S Sandeep Pillai
 
-**Edit(s):** 
+**Edit(s):** Pranav Shridhar
 
 ***
 
@@ -8,7 +8,7 @@ Now let us look at some of the inbuilt functions (that you need to byheart lol).
 
 # Inbuilt Functions
 
-Modules are basically header files in python, which you can `link` your program to to get access to a vast collection of 
+Modules are basically header files in python, which you can `link` in your program to get access to a vast collection of 
 functions and features. 
 
 To 'import' a module into your program, you can use the following syntax:
@@ -36,7 +36,7 @@ functions include:
 
 ```python
 math.pow(2,3)     # Input
->>>8              # Output
+>>> 8             # Output
 ```
 ### math.sqrt(a) 
 
@@ -44,7 +44,7 @@ math.pow(2,3)     # Input
 
 ```python
 math.sqrt(49)     # Input
->>>7              # Output
+>>> 7             # Output
 ```
 
 ### math.sin(a)
@@ -53,7 +53,7 @@ math.sqrt(49)     # Input
 
 ```python
 math.sin( math.pi / 2 )     # Input: math.pi can be used to get an accurate value of π
->>>8                        # Output
+>>> 8                       # Output
 ```
 ### math.log10(a)
 
@@ -61,7 +61,15 @@ math.sin( math.pi / 2 )     # Input: math.pi can be used to get an accurate valu
 
 ```python
 math.log10(1000)         # Input
->>>3                     # Output
+>>> 3                    # Output
+```
+
+By now, if you are tired of typing out 'math' repeatedly, you can opt for a shorthand style as follows :
+
+```python
+import math as m
+m.sin(m.pi/2)         # Input
+>>> 8                 # Output
 ```
 
 Below I shall list a few more important functions that can be useful:
