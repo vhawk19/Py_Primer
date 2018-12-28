@@ -52,7 +52,7 @@ Genre: Philosophical Fiction
 Type: book
 ```
 
-Notice how the type for both are the same? Well that's how a class variable
+Notice how the type for both is the same? Well, that's how a class variable
 is. It's the same for all instances of the class.
 
 ### Altering a Class Variable
