@@ -1,5 +1,5 @@
 ### Author: Pranav Shridhar
-## Example program illustrating classes.
+# Example program illustrating classes.
 
 ```python
 class Car:
