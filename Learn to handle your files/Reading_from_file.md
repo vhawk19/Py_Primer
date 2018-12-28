@@ -21,7 +21,7 @@ _____________________________________________________
 ## Reading only Parts of the File
 By default the read() method returns the whole text, but you can also specify how many character you want to return using read(size) method.Here size is the number of bytes to be read from the opened file
 
-** _Example_ **
+**_Example_**
 ```python
 new_file = open("test.txt", "w") 
 print(new_file.read(12)) 
@@ -37,7 +37,7 @@ _____________________________________________________
 ### Read the file line by file
 You can read the contents of a file, line by line by using the readline() method.If have a very long file, readline() method is more efficient and convenient
 
-** _Example I_** - Read one line of the file:
+**_Example I_** - Read one line of the file:
 
 ```python
 f = open("test.txt", "r")
