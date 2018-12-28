@@ -81,5 +81,5 @@ This is line 5
 
 
 Now let us try to read the contents from a file.
-[                          Click here <img src="https://media.giphy.com/media/11tzAbXuJ0O4h2/giphy.gif"  width="35" height="35" />](https://github.com/annu12340/Py_Primer/blob/master/Learn%20to%20handle%20your%20file/Reading_from_file.md)
+[                          Click here <img src="https://media.giphy.com/media/11tzAbXuJ0O4h2/giphy.gif"  width="35" height="35" />](https://github.com/annu12340/Py_Primer/blob/master/Learn%20to%20handle%20your%20file/Reading%20from%20a%20file.md)
 
