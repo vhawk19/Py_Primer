@@ -20,5 +20,5 @@ Similarly in python, a file operation takes place in the following order.
 2.	Read or write (perform operation)
 3.	Close the file
 
-It's as simple as that. So lets get our hands dirty, and start writing out first file program[ Click here <img src="https://media.giphy.com/media/11tzAbXuJ0O4h2/giphy.gif"  width="35" height="35" />](https://github.com/annu12340/Py_Primer/blob/master/Learn%20to%20handle%20your%20file/Writing_into_file.md)
+It's as simple as that. So lets get our hands dirty, and start writing out first file program[ Click here <img src="https://media.giphy.com/media/11tzAbXuJ0O4h2/giphy.gif"  width="35" height="35" />](https://github.com/annu12340/Py_Primer/blob/master/Learn%20to%20handle%20your%20file/writing%20to%20a%20file.md)
 
