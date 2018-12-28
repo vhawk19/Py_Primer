@@ -111,6 +111,8 @@ A.x is a class variable, and will be **shared across all instances of A**, unles
 B.x is an instance variable, and **each instance of B has its own version of it.**
 
 
+The __init__ method is roughly what represents a constructor in Python (like in C/C++). When you call A() Python creates an object for you, and passes it ('self') as the first parameter to the __init__ method. 
+
 ## Instances
 
 ### Creating an instance
