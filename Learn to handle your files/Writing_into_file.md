@@ -3,7 +3,7 @@
 Now let us try to write a simple python program to add text into an empty file
 ```python
 new_file = open("test.txt", "w") 
-new_file.write("This is my first python file program")
+new_file.write("This is my first python program \n I am really excited about it!!)
 new_file.close()
 ```
 
