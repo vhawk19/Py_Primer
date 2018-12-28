@@ -1,6 +1,7 @@
 ## Reading the entire file in a go
 In the previous page you have learned how to write into a file. Now let us understand how to read from a file. 
-![a](https://upload.wikimedia.org/wikipedia/commons/7/7a/Reading-297450.png)
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Reading-297450.png"  width="250" height="250" float="left"/>
 
 Previously we have created a new file, called "test.txt " having the following contents in it:
 ```
