@@ -12,7 +12,7 @@
 * Methods are essentially functions defined within a class and data members are variables which are also defined within a class.
 
 
-Yes, this seems a little complicated but it really isn't. Here's a simple analogy to help understand better:
+Yes, this seems a little complicated but it really isn't. Here's a simple analogy to help understand better :
 
 A class is very similar to a basic chocolate cake recipe. It has all the ingredients (data) and the instructions (methods) to bake a cake. The object here is the cake.
 
