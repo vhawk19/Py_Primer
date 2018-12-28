@@ -58,7 +58,8 @@ ______________________________
    
    
 We have successfully created a new file and entered some contents to it. Let us see one more example:-
-     #### *Example II*
+     
+   #### *Example II*
 
 
 Here we open a file called *new.txt*. We have a *for loop* that runs over a range of 5 numbers.We use the write function to enter data into the file. 
