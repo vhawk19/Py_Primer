@@ -14,7 +14,7 @@ Let us try to break it down and understand each line of code in the above progra
 +  Open() function
 
 ```
-_____________________
+
 On the first line, we have the open function.We declared the variable *new_line* to open a file named text.txt The open() function takes two parameters:- filename and mode.
 
 1. **Filename**: This is a string telling Python where to find the file. If you’re using Windows, you saved test.txt to the local disk on the D: drive, so you specify the location of your file as d:\\test.txt
@@ -30,31 +30,31 @@ On the first line, we have the open function.We declared the variable *new_line*
 In addition you can specify if the file should be handled as binary or text mode
 * "t" - Text - Default value. Text mode
 * "b" - Binary - Binary mode (e.g. images)
-
+_____________________
 ### Line 2-
 ```diff
 + write() function
 
 ```
-______________________________
+
 Now we have successfully opened the file in write mode.In the second line, we have the write function. Inside the write function, we specify the content we want write into our file.
 **Append() function**
 If the file already exists, opening it in write mode clears out the old data and starts fresh, so be careful!!.Inorder to avoid this, we have the append function. The append function is used to append to the file instead of overwriting it.
 To append to an existing file, simply open the file in append mode ("a"):
-
+______________________________
 ### Line 3-
 ```diff
 + close() function
 
 ```
-______________________________
 
 After writing into the file finally, we need to tell Python when we’re finished, by using the close function.It free up any system
 resources taken up by the open file.Python automatically closes a file when the reference object of a file is reassigned to another file. It is a good practice to use the close() method to close a file.
 
 ______________________________
-       *Example II*
-______________________________
+     
+     *Example II*
+
 
 We have successfully created a new file and entered some contents to it. Let us see one more example:-
 ```python
