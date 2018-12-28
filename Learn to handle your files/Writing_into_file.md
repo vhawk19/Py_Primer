@@ -8,7 +8,7 @@ new_file.close()
 ```
 
 Let us try to break it down and understand each line of code in the above program
-## Line 1-
+### Line 1-
 ```diff
 +  Open() function
 
@@ -30,7 +30,7 @@ In addition you can specify if the file should be handled as binary or text mode
 * "t" - Text - Default value. Text mode
 * "b" - Binary - Binary mode (e.g. images)
 
-## Line 2-
+### Line 2-
 ```diff
 + write() function
 
@@ -41,7 +41,7 @@ Now we have successfully opened the file in write mode.In the second line, we ha
 When we use write function, it overwrites the file and the existing data in the file is lost.The append function is used to append to the file instead of overwriting it.
 To append to an existing file, simply open the file in append mode ("a"):
 
-## Line 3-
+### Line 3-
 ```diff
 + close() function
 
@@ -51,8 +51,8 @@ ______________________________
 After writing into the file finally, we need to tell Python when we’re finished, by using the close function.It free up any system
 resources taken up by the open file.Python automatically closes a file when the reference object of a file is reassigned to another file. It is a good practice to use the close() method to close a file.
 
-*********************************************************************************************************************************
-
+______________________________
+______________________________
 We have successfully created a new file and entered some contents to it. Let us see one more example:-
 ```python
 f= open("new.txt","a")
