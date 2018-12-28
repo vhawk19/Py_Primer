@@ -15,9 +15,9 @@ Let us try to break it down and understand each line of code in the above progra
 
 ```
 
-On the first line, we have the open function.We declared the variable *new_line* to open a file named text.txt The open() function takes two parameters:- filename and mode.
+On the first line, we have the open function.We declared a variable *new_line* to open a file named text.txt The open() function takes two parameters:- filename and mode.
 
-1. **Filename**: This is a string telling Python where to find the file. If you’re using Windows, you saved test.txt to the local disk on the D: drive, so you specify the location of your file as d:\\test.txt
+1. **Filename**: This is a string tells Python where to find the file. If you’re using Windows, you saved test.txt to the local disk on the C: drive, so you specify the location of your file as c:\\test.txt
 
 2. **Mode**: Here we used "w" letter in our argument, which indicates write mode.This arguement tells python whether we are reading from a file or writing into it. Other than "w", we have different other modes for opening a file
 
@@ -38,7 +38,9 @@ _____________________
 ```
 
 Now we have successfully opened the file in write mode.In the second line, we have the write function. Inside the write function, we specify the content we want write into our file.
-**Append() function**
+
+**Append() function**:-
+
 If the file already exists, opening it in write mode clears out the old data and starts fresh, so be careful!!.Inorder to avoid this, we have the append function. The append function is used to append to the file instead of overwriting it.
 To append to an existing file, simply open the file in append mode ("a"):
 ______________________________
