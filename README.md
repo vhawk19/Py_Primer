@@ -9,9 +9,9 @@ We also have In-built Methods documentation with examples documented in a formal
 ## Contents
 + ### [str("strings are easy,but there are so many methods!!")](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Strings/ReadMe.md)
 + ### [['L','i','s','t','s']](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Lists/ReadMe.md)
-+ ### [{'D':'i','c':'t','i':'o','n':'a','r':'i','e':'s'}](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Dictionary/ReadMe.md)
 + ### [('T','u','p','l','e','s')](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Tuples/ReadMe.md)
-+ ### [FUNCtions(intro,builtin,complex[,lamdba])](https://github.com/vhawk19/Py_Primer/Functions/1_Introduction_to_Functions.md)
++ ### Dictionary=[{'key':'value'}](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Dictionary/ReadMe.md)
++ ### [FUNCtions(intro,builtin,complex[,lamdba])](https://github.com/vhawk19/Py_Primer/blob/master/Functions/1_Introduction_to_Functions.md)
 + ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Classes_and_Instances.md)
 
 
