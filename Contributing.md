@@ -29,7 +29,7 @@ Say you want to do something a little bigger such as adding a new file or featur
 in that case open an issue and discuss how to go about it there before making any changes.
 
 
-### That it (:sparkles:yay~)
+### That's it (:sparkles:yay~)
 
-Seriously thats it.Now you can start contributing whenever you like! 
+Seriously that's it.Now you can start contributing whenever you like! 
 
