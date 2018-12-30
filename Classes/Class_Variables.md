@@ -41,7 +41,7 @@ Book2.print_info()
 
 The output will be : 
 
-```python
+```
 Title: The Hitchhiker's Guide to the Galaxy
 Genre: Comic Science Fiction
 Type: book
@@ -80,7 +80,7 @@ Book2.print_info()
 
 New output:
 
-``` python
+```
 Title: The Hitchhiker's Guide to the Galaxy
 Genre: Comic Science Fiction
 Type: I am an awesome book!
