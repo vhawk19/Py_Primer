@@ -84,7 +84,7 @@ aaaa
 bbbb
 ```
 We can use `[ ]` **square brackets** to get a substring of a string.
-The format is `\<variable\>[a:b]` where a and b are the indices, a is inclusive while b is exclusive.
+The format is `<variable_name>[a:b]` where a and b are the indices, a is inclusive while b is exclusive.
 ```python
 s = 'Hello World'
 print(s[1:3])
