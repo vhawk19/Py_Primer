@@ -21,11 +21,11 @@ mistakes. Add a new topic or even a new feature if you're up to it!
 #### (Don't panic! There are only two)
 
 
-If you want to update present topics or example code; go ahead and
+* If you want to update present topics or example code; go ahead and
 pull a request after making your own fork and adding your changes.
 
 
-Say you want to do something a little bigger such as adding a new file or feature;
+* Say you want to do something a little bigger such as adding a new file or feature;
 in that case open an issue and discuss how to go about it there before making any changes.
 
 
@@ -33,3 +33,8 @@ in that case open an issue and discuss how to go about it there before making an
 
 Seriously that's it.Now you can start contributing whenever you like! 
 
+-PyPrimer Team
+
+
+***
+(V 0.42)
