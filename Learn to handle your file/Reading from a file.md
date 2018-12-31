@@ -1,6 +1,6 @@
 **Authors:** Annu Jolie
 
-**Edits:** Pranav Shridhar
+**Edits:** Pranav Shridhar, Diya Maria Deepak
 
 ***
 
