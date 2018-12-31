@@ -1,6 +1,6 @@
 **Authors:** Annu Jolie
 
-**Edits:** Pranav Shridhar
+**Edits:** Pranav Shridhar, Diya Maria Deepak
 
 ***
 
@@ -30,8 +30,8 @@ By default the read() method returns the whole text, but you can also specify ho
 
 **_Example_**
 ```python
-new_file = open("test.txt", "w") 
-print(new_file.read(12)) 
+new_file = open("test.txt", "r") 
+print(new_file.read(13)) 
 new_file.close()
 ```
 The output of the code will be :-
