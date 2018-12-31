@@ -1,6 +1,6 @@
 **Authors:** Annu Jolie
 
-**Edits:** Pranav Shridhar
+**Edits:** Pranav Shridhar, Diya Maria Deepak
 
 ***
 
@@ -73,7 +73,7 @@ Here we open a file called *new.txt*. We have a *for loop* that runs over a rang
 ```python
 f= open("new.txt","a")
 for i in range(5):
-     f.write("This is line \n" ,(i+1))
+     f.write("This is line "+str((i+1))+"\n")
 f.close()     
      
 ```
