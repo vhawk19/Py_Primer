@@ -11,7 +11,7 @@ We also have In-built Methods documentation with examples documented in a formal
 + ### [['L','i','s','t','s']](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Lists/ReadMe.md)
 + ### [('T','u','p','l','e','s')](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Tuples/ReadMe.md)
 + ### [Dictionary={'key':'value'}](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Dictionary/ReadMe.md)
-+ ### [FUNCtions(intro,builtin,complex[,lamdba])](https://github.com/vhawk19/Py_Primer/blob/master/Functions/1_Introduction_to_Functions.md)
++ ### [FUNCtions(intro,builtin,complex[,lambda])](https://github.com/vhawk19/Py_Primer/blob/master/Functions/1_Introduction_to_Functions.md)
 + ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Classes_and_Instances.md)
 
 
