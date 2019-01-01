@@ -6,6 +6,10 @@ Choose and learn freely whatever you want from this categorized repo!
 We have explained concepts in an intuitive and fun manner.
 We also have In-built Methods documentation with examples documented in a formal but beginner-friendly manner!
 <br>
+
+### [Want to contribute to this Repo? Click Me!!](https://github.com/vhawk19/Py_Primer/blob/master/Contributing.md)
+***
+
 ## Contents
 + ### [str("strings are easy,but there are so many methods!!")](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Strings/ReadMe.md)
 + ### [['L','i','s','t','s']](https://github.com/vhawk19/Py_Primer/blob/master/Built-in-datatypes/Lists/ReadMe.md)
@@ -18,8 +22,7 @@ We also have In-built Methods documentation with examples documented in a formal
 
 ## GiVe iT a SHot! :joy:
 ***
-### [Want to contribute to this Repo? Click Me!!](https://github.com/vhawk19/Py_Primer/blob/master/Contributing.md)
-***
+
 ### [Help us out by leaving a review! Click me please! (DoNT be ToO HaRSh :cry:)](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
 
 
