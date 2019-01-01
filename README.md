@@ -14,13 +14,17 @@ We also have In-built Methods documentation with examples documented in a formal
 + ### [FUNCtions(intro,builtin,complex[,lambda])](https://github.com/vhawk19/Py_Primer/blob/master/Functions/1_Introduction_to_Functions.md)
 + ### [class learnClasses:](https://github.com/vhawk19/Py_Primer/blob/master/Classes/Classes_and_Instances.md)
 
-
-### ITS NOT BORING!:joy:
-
 ***
-### [Help us out by leaving a review! Click me please!(I get lonely:cry:)](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
+
+## GiVe iT a SHot! :joy:
 ***
 ### [Want to contribute to this Repo? Click Me!!](https://github.com/vhawk19/Py_Primer/blob/master/Contributing.md)
+***
+### [Help us out by leaving a review! Click me please! (DoNT be ToO HaRSh :cry:)](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
+
+
+#### [You can make it better!](https://github.com/vhawk19/Py_Primer/blob/master/Contributing.md)
+
 ***
 
 # Developed by:
