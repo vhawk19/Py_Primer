@@ -26,10 +26,15 @@ We also have In-built Methods documentation with examples documented in a formal
 # Developed by:
  + #### [vhawk19](https://github.com/vhawk19) (Varun)
  + #### [Corruption13](https://github.com/Corruption13) (Sandeep)
+ + #### [annu12340](https://github.com/annu12340) (Annu)
  + #### [ATR-OC](https://github.com/ATR-OC) (Ashley)
  + #### [pranavmodx](https://github.com/pranavmodx) (Pranav)
  + #### [Diya8](https://github.com/Diya8) (Diya)
  + #### [VoxEtMohita](https://github.com/VoxEtMohita) (Mohita)
  + #### [angie1015](https://github.com/angie1015) (Anagha)
  + #### [emmanuelantony2000](https://github.com/emmanuelantony2000) (Emmanuel)
- + #### [annu12340](https://github.com/annu12340) (Annu)
+
+
+***
+
+#########42
