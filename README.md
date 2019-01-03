@@ -20,7 +20,7 @@ We also have In-built Methods documentation with examples documented in a formal
 
 ***
 
-## GiVe iT a SHot! :joy:
+### GiVe iT a SHot! :joy:
 ***
 
 ### [Help us out by leaving a review! Click me please! (DoNT be ToO HaRSh :cry:)](https://goo.gl/forms/pmOLbLB4PXnbxBXU2)
