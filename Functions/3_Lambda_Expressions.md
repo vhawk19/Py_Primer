@@ -69,7 +69,7 @@ print(l)
 
 filter()
 ---
-It receives a function and an iterable object as arguments. The function should return a true or false value. U will get back only those elements as results which when passed through the function return True.
+It receives a function and an iterable object as arguments. The function should return a True or False value. You will get back only those elements as results which when passed through the function return True.
 
 ### Example:
 
