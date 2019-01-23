@@ -307,7 +307,7 @@ Return a copy of the string with all occurrences of substring old replaced by ne
 ```python
 a = 'lorem ipsum'
 a.replace('l','u')
-#Output:'urem ipsum'
+#Output:'uorem ipsum'
 ```
 
 ### str.rjust(width[ ,fillchar])
