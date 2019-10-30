@@ -1,0 +1,2 @@
+div=int(input ("enter your dob"))
+print(div)
